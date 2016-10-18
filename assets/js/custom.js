@@ -10,7 +10,7 @@
                 interval: 2000 //TIME IN MILLI SECONDS
             })
            
-            //  SCROLL SCRIPT FUNCTION FOR NAVBAR 
+            //  SCROLL SCRIPT FUNCTION
             $(function () {
                 $('.move-me a').bind('click', function (event) { //just pass move-me in design and start scrolling
                     var $anchor = $(this);
@@ -27,11 +27,6 @@
             $('#reviews').carousel({
                 interval: 4000 //TIME IN MILLI SECONDS
             })
-            /*====================================
-            WRITE YOUR SCRIPTS HERE
-            ======================================*/
-
-
         },
 
         initialization: function () {
