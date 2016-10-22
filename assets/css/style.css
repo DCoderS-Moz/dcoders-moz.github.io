@@ -378,7 +378,7 @@ h2:after {
 
 .recent-events-wrap {
     position: relative;
-    cursor: pointer;
+    cursor: mouse;
 }
 
 #recent-events a:hover {
