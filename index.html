@@ -32,12 +32,14 @@
       </button>
       <a class="navbar-brand" href="#">DCS</a>
     </div>
-
+  <div class="container">
+    <div id="nav">
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#about" class="font-def">About Us</a></li>
           <li><a href="#impact" class="font-def">Events</a></li>
           <li><a href="#vedio-sec" class="font-def">Teaser</a></li>
+
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -48,6 +50,8 @@
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
+  		  </div>
+		  </div>
 </nav>
     <!--./ NAV BAR END -->
 
@@ -531,9 +535,7 @@ Competitive coding competition simulations that are similar to ACM-ICPC etc. <br
     <script src="assets/js/scrollReveal.js"></script>
     <!--  Custom Scripts -->
     <script src="assets/js/custom.js"></script>
-    <script>
-      
-    </script>
+    <script src="assets/js/jquery.smooth-scroll.js" ></script>
 <!-- Start of StatCounter Code for Default Guide -->
 <script type="text/javascript">
 var sc_project=11142037; 
@@ -552,5 +554,27 @@ src="//c.statcounter.com/11142037/0/deb2c3d1/1/"
 alt="shopify analytics"></a></div></noscript>
 -->
 <!-- End of StatCounter Code for Default Guide -->
+  <script src="lib/jquery/jquery.js"></script>
+  <script src="src/jquery.smooth-scroll.js"></script>
+  <script src="lib/jquery.ba-bbq.js"></script>
+  <script>
+    $(document)
+    .on('click', 'a[href*="#"]', function() {
+      if ( this.hash && this.pathname === location.pathname ) {
+        $.bbq.pushState( '#/' + this.hash.slice(1) );
+        return false;
+      }
+    })
+    .ready(function() {
+      $(window).bind('hashchange', function(event) {
+        var tgt = location.hash.replace(/^#\/?/,'');
+        if ( document.getElementById(tgt) ) {
+          $.smoothScroll({scrollTarget: '#' + tgt});
+        }
+      });
+
+      $(window).trigger('hashchange');
+    });
+  </script>
 </body>
 </html>
