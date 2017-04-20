@@ -2,7 +2,7 @@
     font-family: 'Arial', sans-serif;
     font-size: 14px;
     line-height: 30px;
-    
+
 }
 
 .pad-low {
@@ -107,7 +107,7 @@ h2:after {
     color: #fff;
 }
 /*=====================================
-   HEADER SECTION BAR STYLE 
+   HEADER SECTION BAR STYLE
     ===================================*/
 .header-sec-bar {
     background-color: #FF4F4F;
@@ -123,7 +123,7 @@ h2:after {
     }
 
 /*=====================================
- MAIN  HEADER SECTION  STYLE 
+ MAIN  HEADER SECTION  STYLE
     ===================================*/
 #main-head {
     font-family: 'Product Sans', Arial, sans-serif;
@@ -205,7 +205,7 @@ h2:after {
 }
 
 /*=====================================
- BUTTON CODE STYLE 
+ BUTTON CODE STYLE
     ===================================*/
 .btn-style-1 {
     color: #fff;
@@ -282,7 +282,7 @@ h2:after {
         transition: all 0.5s ease-in-out;
     }
 /*=====================================
- ABOUT SECTION  STYLE 
+ ABOUT SECTION  STYLE
     ===================================*/
 #about {
     padding-bottom: 100px;
@@ -311,7 +311,7 @@ h2:after {
     }
 
 /*=====================================
- BUDGET SECTION  STYLE 
+ BUDGET SECTION  STYLE
     ===================================*/
 #budget {
     background-color: #000000;
@@ -320,7 +320,7 @@ h2:after {
 }
 
 /*=====================================
- VEDIO SECTION  STYLE 
+ VEDIO SECTION  STYLE
     ===================================*/
 #vedio-sec {
     padding-bottom: 80px;
@@ -334,7 +334,7 @@ h2:after {
     margin-top: 20px;
 }
 /*=====================================
-  REVIEW STYLES 
+  REVIEW STYLES
     ===================================*/
 .reviews-section {
     background: #db0c3b;
@@ -361,7 +361,7 @@ h2:after {
 }
 
 /*=====================================
-  EVENTS STYLES 
+  EVENTS STYLES
     ===================================*/
 #recent-events {
     padding-bottom: 20px;
@@ -441,7 +441,7 @@ h2:after {
 }
 
 /*=====================================
-   IMPACT STYLE 
+   IMPACT STYLE
     ===================================*/
 #impact {
     padding-bottom: 20px;
@@ -460,7 +460,7 @@ h2:after {
 
 
 /*=====================================
-   CONTACT STYLE 
+   CONTACT STYLE
     ===================================*/
 #contact {
     padding-bottom: 20px;
@@ -469,7 +469,7 @@ h2:after {
 }
 
 /*=====================================
-  FOOTER STYLES 
+  FOOTER STYLES
     ===================================*/
 #footer-sec {
     background-color: #504e51;
@@ -514,7 +514,7 @@ h2:after {
     padding: 10px;
 }
 /*=====================================
-  SCROLL UP STYLES 
+  SCROLL UP STYLES
     ===================================*/
 
 a.scrollup {
@@ -531,4 +531,7 @@ bottom: 10px;
 right: 10px;
 z-index: 9999;
 opacity: 0.5;
+}
+.verticalLine{
+  border-left: thick solid #ff0000;
 }
