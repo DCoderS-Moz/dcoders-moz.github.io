@@ -132,7 +132,7 @@ h2:after {
     line-height: 40px;
     font-size: 14px;
     text-align: center;
-    background-color: #808083;
+    background-color: white;
 }
 
     #main-head input:focus {
@@ -347,7 +347,7 @@ h2:after {
     }
 
 .slide-custom {
-    min-height: 200px;
+    min-height: 240px;
     padding: 20px;
     line-height: 30px;
 }
