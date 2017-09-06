@@ -1,895 +1,576 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:opacity="http://www.w3.org/1999/xhtml">
+<html lang="en">
 
 <head>
+    <!-- PAGE HEADERS -->
+    <title>D'CoderS : SMIT v2.0</title>
+    <link rel="shortcut icon" type="image/jpg" href="assets/img/dcoders.jpg" />
 
-    <link href='https://fonts.googleapis.com/css?family=Product+Sans:400,400i,700,700i' rel='stylesheet' type='text/css'>
-
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="description" content="This is the official portal to the technical club the D'CoderS." />
+    <!-- META -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is the official portal to the technical club the D'CoderS.">
     <meta name="keywords" content="dcoders,D'coderS,smit,sikkim,manipal,technical,institute,of,technology,sikkim manipal institute of technology,SMU,technical club,technical,club,hackathon,Computer Science,Design,Code,Web,Hack,Build,Google,Android,Windows,iOS,Workshops,Seminars">
-    <meta name="author" content="D'CoderS" />
-    <link rel="shortcut icon" type="image/jpg" href="assets\img\dcoders.jpg" />
-    <title> D'CoderS : SMIT v2.0</title>
-    <link href="assets/css/bootstrap.css" rel="stylesheet" />
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
-    <link href='https://fonts.googleapis.com/css?family=Nova+Flat' rel='stylesheet' type='text/css' />
-    <link href="assets/css/style.css" rel="stylesheet" />
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <meta name="author" content="D'CoderS">
+
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" type="text/css" href="public/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="public/css/style.css">
+
+    <!-- FONTS -->
+    <link rel="stylesheet" type="text/css" href="public/fonts/iconfont/material-icons.css">
+    <link rel="stylesheet" type="text/css" href="public/css/font-awesome.min.css">
+
+    <!-- SCRIPTS -->
+    <script type="application/javascript" src="public/js/jquery-3.2.1.min.js"></script>
+    <script type="application/javascript" src="public/js/materialize.min.js"></script>
+    <script type="application/javascript" src="public/js/jquery.scrollTo.min.js"></script>
+    <script type="application/javascript" src="public/js/jquery.localScroll.min.js"></script>
+    <script type="application/javascript" src="public/js/jquery.matchHeight-min.js"></script>
+    <script type="application/javascript" src="public/js/page_controler.js"></script>
 </head>
 
 <body>
-
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#" style="cursor:default">DCS 2.0</a>
-            </div>
-            <div class="container">
-                <div id="nav">
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#whatsnew" class="font-def">What's New</a></li>
-                            <li><a href="#events" class="font-def">Events</a></li>
-                            <li><a href="#recent-events">Our Team</a></li>
-                            <li><a href="#footer-sec">Contact Us</a></li>
-                        </ul>
+    <div class="wrapper">
+        <!-- HEADER -->
+        <div class="header">
+            <nav>
+                <div class="nav-wrapper grey darken-3 white-text">
+                    <a href="#" class="brand-logo center">DCS 2.0</a>
+                    <a href="#" data-activates="nav-mobile" class="button-collapse">
+                        <i class="material-icons">Menu</i>
+                    </a>
+                    <ul id="nav-desktop" class="left hide-on-med-and-down">
+                        <li><a href="#wn">What's New</a> </li>
+                        <li><a href="#ev">Events</a> </li>
+                        <li><a href="#ot">The Team</a> </li>
+                        <li><a href="#ft">Contact Us</a> </li>
+                    </ul>
+                    <ul id="nav-mobile" class="side-nav">
+                        <li>
+                            <h3 class="card-panel deep-orange accent- white-text center-align">DCS 2.0</h3>
+                        </li>
+                        <li><a href="#wn">What's New</a> </li>
+                        <li><a href="#ev">Events</a> </li>
+                        <li><a href="#ot">The Team</a> </li>
+                        <li><a href="#ft">Contact Us</a> </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- CONTENT -->
+        <div class="content">
+            <!-- CONTENT HEADER -->
+            <div id="ch" class="container">
+                <div class="row">
+                    <div class="col s12 m12 l12 xl12 center-align">
+                        <img class="responsive-img" src="assets/img/dcoders.jpg" alt="D'Coder'S Logo" height="40%" width="40%">
+                        <h4 class="content-header">D'CoderS v2.0</h4>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeCnQTlTrHuiDc91ciTUttGsEM3NbZQG1ZHcxgm_YomsrC6Rw/viewform" class="waves-effect waves-light btn-large" target="_blank">Become a member</a>
+                        <br/>
+                        <h3>It's meant for all!</h3>
+                        <h4 class="content-header">Stop being afraid and ignite your inner geek.
+                #EveryoneCanCode</h4>
                     </div>
                 </div>
             </div>
-        </div>
-    </nav>
-
-    <div id="main-head">
-        <div class="container">
-            <div class="row">
-                <img src="assets\img\dcoders.jpg" alt="D'CoderS logo" height="40%" width="40%">
-                <h2>D'CoderS v2.0</h2>
-                <br>
-                <h1>It's meant for all!</h1>
-                <h2>Stop being afraid and ignite your inner geek.<br>#EveryoneCanCode</h2>
-            </div>
-        </div>
-    </div>
-
-    <div id="whatsnew">
-        <div class="container">
-            <div class="row text-center" data-scroll-reveal="enter from the bottom after .2s" width=100%>
-                <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
-                    <h2><br><br>What's new!</h2>
-                </div>
-            </div>
-            <div class="container">
+            <!-- CONTENT WHAT'S NEW -->
+            <div id="wn" class="section">
+                <!-- WHAT'S NEW HEADER -->
                 <div class="row">
-                    <div color="white" align="center">
-                        <h1><br> Brand new association.</h1></div>
-                    <br>
-                    <br>
-                    <div class="col-md-1"></div>
-                    <div class="col-md-1"></div>
-                    <div class="col-md-1 col-xs-12"><br><br><img src="assets\img\hackerearth.png" alt="HackerEarth" height="60px" width="300px"></div>
-                    <div class="col-md-1"></div>
-                    <div class="col-md-1"></div>
-                    <div class="col-md-1"></div>
-                    <div class="col-md-1"></div>
-                    <div class="col-md-1 col-xs-12"><img src="assets\img\dcoders.jpg" alt="D'CoderS" height="200px" width="200px"></div>
-                    <div class="col-md-1"></div>
-                    <div class="col-md-1"></div>
-                    <div class="col-md-2"></div>
+                    <div class="col s12 m12 l12 xl12 center-align">
+                        <h4 class="content-header">What's New</h4>
+                    </div>
                 </div>
-            </div>
-            <h3 font-colour="black"><br><br><u> Introducing all new Coding Hubs </u></h3>
-            <div class="row pad-low">
+                <!-- WHAT'S NEW TAG -->
+                <div class="row">
+                    <div class="col s12 m12 l12 xl12 center-align">
+                        <h3>Brand new association.</h3>
+                    </div>
+                </div>
+                <!-- WHAT'S NEW ITEMS -->
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-5 col-md-5 col-sm-12">
-                            <div class="row hover-color" data-scroll-reveal="enter from the left after .2s">
-                                <div class="media">
-                                    <div class="pull-left">
-                                        <i class="fa fa-code fa-4x icon-round"></i>
-                                    </div>
-                                    <div class="media-body">
-                                        <h3 class="media-heading"><br>Competitive Coding</h3>
-                                        <p>
-                                            <!--<b>Objective: </b>
-                                            <br>-->
-                                            <br><b>Members:</b>
-                                            <br> Spandan Buragohain
-                                            <br> Rishav Rakshit
-                                            <br> Ayush Mittal
-                                            <br> Amitabh Banerjee
-                                            <br> Suman Kumar
-                                            <br> Rohit Shrivastava
-                                            <br> Rishav Anand
-                                        </p>
-                                    </div>
-                                </div>
+                        <div class="col s12 m6 l6 xl6 h-fix valign-wrapper">
+                            <div class="row center-align">
+                                <img src="assets/img/hackerearth.png" alt="hacker_earth" class="responsive-img" width="50%" height="50%">
+                                <br>
+                                <br><a class="waves-effect waves-light btn" href="assets/files/Introduction to Hackerearth.pptx"><i class="material-icons right">cloud_download</i>Download ppt.</a>
                             </div>
                         </div>
-                        <div class="col-lg-2 col-md-2 col-sm-12"></div>
-                        <div class="col-lg-5 col-md-5 col-sm-12">
-                            <div class="row" data-scroll-reveal="enter from the bottom after .2s">
-                                <div class="media">
-                                    <div class="pull-left">
-                                        <i class="fa fa-terminal fa-4x icon-round"></i>
-                                    </div>
-                                    <div class="media-body">
-                                        <h3 class="media-heading"><br>ML & AI</h3>
-                                        <p>
-                                            <!--<b>Objective:</b>
-                                            <br>-->
-                                            <br><b>Members:</b>
-                                            <br> Prithvi Kandappan
-                                            <br> Spandan Buragohain
-                                            <br> Rishav Rakshit
-                                            <br> Aayush Mittal
-                                            <br> Srinjoy Dutta
-                                        </p>
-                                    </div>
-                                </div>
+                        <div class="col s12 m6 l6 xl6 h-fix valign-wrapper">
+                            <div class="row center-align">
+                                <img src="assets/img/dcoders.jpg" alt="dcoders_smit" class="responsive-img" width="40%" height="40%">
                             </div>
                         </div>
                     </div>
                 </div>
-                <br><br>
-                <div class="container">
+                <!-- WHAT'S NEW HUBS HEADER -->
+                <div class="section blue lighten-1">
+                    <div class="row container">
+                        <div class="col s12 m12 l12 xl12 center-align">
+                            <h5 class="content-header white-text">Introducing all new Coding Hubs</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- WHAT'S NEW HUBS ITEMS -->
+                <div class="section blue lighten-1">
                     <div class="row">
-                        <div class="col-lg-5 col-md-5 col-sm-12">
-                            <div class="row" data-scroll-reveal="enter from the right after .2s">
-                                <div class="media">
-                                    <div class="pull-left">
-                                        <i class="fa fa-laptop fa-4x icon-round"></i>
-                                    </div>
-                                    <div class="media-body">
-                                        <h3 class="media-heading"><br>Web Development & Android</h3>
-                                        <p>
-                                            <!--<b>Objective:</b>
-                                            <br>-->
-                                            <br><b>Members:</b>
-                                            <br> Rohit Shrivastava
-                                            <br> Saubhagya Sharma
-                                            <br> Suman Kumar
-                                            <br> Amitabh Banerjee
-                                            <br> Spandan Buragohain
-                                        </p>
-
-                                    </div>
+                        <div class="col s12 m6 l3 xl3">
+                            <div class="card hoverable h-fix">
+                                <div class="card-content">
+                                    <span class="fa fa-code fa-4x"></span>
+                                    <span class="card-title">Competitive Coding</span>
+                                    <div class="divider"></div>
+                                    <p class="flow-text"><strong>Members:</strong>
+                                        <br/>Spandan Buragohain
+                                        <br/>Rishav Rakshit
+                                        <br/>Ayush Mittal
+                                        <br/>Amitabh Banerjee
+                                        <br/>Suman Kumar
+                                        <br/>Rohit Shrivastava
+                                        <br/>Rishav Anan</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-2 col-md-2 col-sm-12"></div>
-                        <div class="col-lg-5 col-md-5 col-sm-12">
-                            <div class="row" data-scroll-reveal="enter from the right after .2s">
-                                <div class="media">
-                                    <div class="pull-left">
-                                        <i class="fa fa-linux fa-4x icon-round"></i>
-                                    </div>
-                                    <div class="media-body">
-                                        <h3 class="media-heading"><br>SMIT OS</h3>
-                                        <p>
-                                            <!--<b>Objective:</b>
-                                            <br>-->
-                                            <br><b>Members:</b>
-                                            <br> Krishanu Kashyap
-                                        </p>
-                                    </div>
+                        <div class="col s12 m6 l3 xl3">
+                            <div class="card hoverable h-fix">
+                                <div class="card-content">
+                                    <span class="fa fa-terminal fa-4x"></span>
+                                    <span class="card-title">ML & AI</span>
+                                    <div class="divider"></div>
+                                    <p class="flow-text"><strong>Members:</strong>
+                                        <br/>Prithvi Kandappan
+                                        <br/>Spandan Buragohain
+                                        <br/>Rishav Rakshit
+                                        <br/>Aayush Mittal
+                                        <br/>Srinjoy Dutta </p>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--./ What's New SECTION END -->
-    <!--./ MAIN HEADER SECTION END -->
-    <div id="events">
-        <div class="container">
-            <div class="row text-center" data-scroll-reveal="enter from the bottom after .2s">
-                <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
-                    <h2><br> Proposed/Upcoming Events (Summer 2017)</h2><h4><br> Launch Party (to be held on 6th Sept. '17)<br><br> Enigma <br><br> HackerEarth Hackathon (Membership Drive: Your chance to become a D'Coder)<br><br> Project: SMIT's Own OS (An OS personalised just for you) <br><br> Moodle Workshop <br><br> Beginner's ML using Python <br><br> CodeMeet (ACM-ICPC Competitve Coding) <br><br> Python workshop </h4>
-                </div>
-            </div>
-            <div class="row text-center" data-scroll-reveal="enter from the bottom after .2s">
-                <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
-                    <h2><br><br> Past Events</h2>
-                </div>
-            </div>
-            <div class="row pad-low " data-scroll-reveal="enter from the top after .2s">
-                <div class="col-lg-1 col-md-1 col-sm-1 col-xs-0">
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                    <div class="recent-events-wrap">
-                        <img src="assets/img/act.jpg" alt="Image" />
-                        <br>
-                        <div class="overlay">
-                            <div class="recent-events-inner">
-                                <h5><a href="dir/moz_workshop/mozD.html" target="_blank"><u><font color="aquamarine">Mozilla Workshop</font></u></a></h5>
+                        <div class="col s12 m6 l3 xl3">
+                            <div class="card hoverable h-fix">
+                                <div class="card-content">
+                                    <span class="fa fa-laptop fa-4x"></span>
+                                    <span class="card-title">Web Development & Android</span>
+                                    <div class="divider"></div>
+                                    <p class="flow-text"><strong>Members:</strong>
+                                        <br/>Rohit Shrivastava
+                                        <br/>Saubhagya Sharma
+                                        <br/>Suman Kumar
+                                        <br/>Amitabh Banerjee
+                                        <br/>Spandan Buragohain</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <br>
-                    <div style="padding-left:35%">
-                        <a href="dir/moz_workshop/mozD.html" target="_blank">
-                            <button type="button" class="btn btn-primary" name="button">Visit event page</button>
-                        </a>
-                    </div>
-                    <br>
-                    <br>
-                    <br>
-                </div>
-                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-0">
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                    <div class="recent-events-wrap">
-                        <img src="assets/img/webdev.JPG" alt="Image" />
-                        <div class="overlay">
-                            <div class="recent-events-inner">
-                                <h5><a href="events/webdev/index.html" target="_blank"><font color="aquamarine"><u>Web Development workshop</font></u></a></h5>
-                            </div>
-                        </div>
-                    </div>
-                    <br>
-                    <div style="padding-left:35%">
-                        <a href="events/webdev/index.html" target="_blank">
-                            <button type="button" class="btn btn-primary" name="button">Visit event page</button>
-                        </a>
-                    </div>
-                    <br>
-                    <br>
-                    <br>
-                </div>
-                <div class="col-lg-1 col-md-1 col-sm-1 col-xs-0">
-                </div>
-                <h2>&emsp;&emsp;&emsp;&emsp;</h2>
-            </div>
-        </div>
-        <div class="reviews-section">
-
-            <div class="container">
-                <div class="row ">
-                    <div class="col-lg-12 col-md-12 ">
-                        <h2>MENTIONS</h2>
-                        <div id="reviews" class="carousel slide" data-ride="carousel">
-
-                            <ol class="carousel-indicators">
-                                <li data-target="#reviews" data-slide-to="0" class=""></li>
-                                <li data-target="#reviews" data-slide-to="1" class=""></li>
-                                <li data-target="#reviews" data-slide-to="2" class="active"></li>
-                                <li data-target="#reviews" data-slide-to="3" class=""></li>
-                                <li data-target="#reviews" data-slide-to="4" class=""></li>
-                                <li data-target="#reviews" data-slide-to="5" class=""></li>
-                                <li data-target="#reviews" data-slide-to="6" class=""></li>
-                                <li data-target="#reviews" data-slide-to="7" class=""></li>
-                                <li data-target="#reviews" data-slide-to="8" class=""></li>
-                                <li data-target="#reviews" data-slide-to="9" class=""></li>
-                                <li data-target="#reviews" data-slide-to="10" class=""></li>
-                                <li data-target="#reviews" data-slide-to="11" class=""></li>
-                                <li data-target="#reviews" data-slide-to="12" class=""></li>
-                                <li data-target="#reviews" data-slide-to="13" class=""></li>
-                            </ol>
-
-                            <div class="carousel-inner">
-                                <div class="item">
-                                    <div class="container center">
-                                        <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 slide-custom">
-
-                                            <h4><i class="fa fa-quote-left"></i>“ Linux is only free if your time has no value. ” <i class="fa fa-quote-right"></i></h4>
-
-                                            <h5 class="pull-right"><strong class="c-black">- Jamie Zawinski</strong></h5>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="container center">
-                                        <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 slide-custom">
-                                            <h4><i class="fa fa-quote-left"></i>“ It's hard enough to find an error in your code when you're looking for it; it's even harder when you've assumed your code is error-free. ”<i class="fa fa-quote-right"></i></h4>
-
-                                            <h5 class="pull-right"><strong class="c-black"> - Steve McConnell</strong></h5>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item active">
-                                    <div class="container center">
-                                        <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 slide-custom">
-                                            <h4><i class="fa fa-quote-left"></i>“ Copy and paste is a design error. ”  <i class="fa fa-quote-right"></i></h4>
-
-                                            <h5 class="pull-right"><strong class="c-black">- David Parnas</strong></h5>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="container center">
-                                        <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 slide-custom">
-
-                                            <h4><i class="fa fa-quote-left"></i>“ Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it. ” <i class="fa fa-quote-right"></i></h4>
-
-                                            <h5 class="pull-right"><strong class="c-black">- Brian Kernighan</strong></h5>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="container center">
-                                        <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 slide-custom">
-
-                                            <h4><i class="fa fa-quote-left"></i>“ It's not at all important to get it right the first time. It's vitally important to get it right the last time. ” <i class="fa fa-quote-right"></i></h4>
-
-                                            <h5 class="pull-right"><strong class="c-black">- Andrew Hunt and David Thomas</strong></h5>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="container center">
-                                        <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 slide-custom">
-
-                                            <h4><i class="fa fa-quote-left"></i>“ First, solve the problem. Then, write the code. ” <i class="fa fa-quote-right"></i></h4>
-
-                                            <h5 class="pull-right"><strong class="c-black">- John Johnson</strong></h5>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="container center">
-                                        <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 slide-custom">
-
-                                            <h4><i class="fa fa-quote-left"></i>“ Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live. ” <i class="fa fa-quote-right"></i></h4>
-
-                                            <h5 class="pull-right"><strong class="c-black">- Rick Osborne</strong></h5>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="container center">
-                                        <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 slide-custom">
-
-                                            <h4><i class="fa fa-quote-left"></i>“ Any fool can write code that a computer can understand. Good programmers write code that humans can understand.  ” <i class="fa fa-quote-right"></i></h4>
-
-                                            <h5 class="pull-right"><strong class="c-black">- Martin Fowler</strong></h5>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="container center">
-                                        <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 slide-custom">
-
-                                            <h4><i class="fa fa-quote-left"></i>“ Any code of your own that you haven't looked at for six or more months might as well have been written by someone else. ” <i class="fa fa-quote-right"></i></h4>
-
-                                            <h5 class="pull-right"><strong class="c-black">- Eagleson's law</strong></h5>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="container center">
-                                        <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 slide-custom">
-
-                                            <h4><i class="fa fa-quote-left"></i>“ Good code is its own best documentation. As you're about to add a comment, ask yourself, "How can I improve the code so that this comment isn't needed?" Improve the code and then document it to make it even clearer. ” <i class="fa fa-quote-right"></i></h4>
-
-                                            <h5 class="pull-right"><strong class="c-black">- Steve McConnell</strong></h5>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="container center">
-                                        <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 slide-custom">
-
-                                            <h4><i class="fa fa-quote-left"></i>“ The first 90% of the code accounts for the first 90% of the development time. The remaining 10% of the code accounts for the other 90% of the development time.  ” <i class="fa fa-quote-right"></i></h4>
-
-                                            <h5 class="pull-right"><strong class="c-black">- Tom Cargill</strong></h5>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="container center">
-                                        <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 slide-custom">
-
-                                            <h4><i class="fa fa-quote-left"></i>“ Most good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program.  ” <i class="fa fa-quote-right"></i></h4>
-
-                                            <h5 class="pull-right"><strong class="c-black">- Linus Torvalds (Principal force behind the development of the Linux kernel)</strong></h5>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="container center">
-                                        <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 slide-custom">
-
-                                            <h4><i class="fa fa-quote-left"></i>“ If debugging is the process of removing software bugs, then programming must be the process of putting them in.  ” <i class="fa fa-quote-right"></i></h4>
-
-                                            <h5 class="pull-right"><strong class="c-black">- Edsger Dijkstra (Dutch computer scientist, winner of the 1972 Turing Award)</strong></h5>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="container center">
-                                        <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 slide-custom">
-
-                                            <h4><i class="fa fa-quote-left"></i>“  Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it.  ” <i class="fa fa-quote-right"></i></h4>
-
-                                            <h5 class="pull-right"><strong class="c-black">- Brian Kernighan</strong></h5>
-                                        </div>
-                                    </div>
+                        <div class="col s12 m6 l3 xl3">
+                            <div class="card hoverable h-fix">
+                                <div class="card-content">
+                                    <span class="fa fa-linux fa-4x"></span>
+                                    <span class="card-title">SMIT OS</span>
+                                    <div class="divider"></div>
+                                    <p class="flow-text"><strong>Members:</strong>
+                                        <br/>Krishanu Kashyap </p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-        </div>
-        <!--./ REVIEWS SECTION END -->
-        <div id="about">
-            <div class="container">
-                <div class="row text-center" data-scroll-reveal="enter from the bottom after .2s">
-                    <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
-                        <h2>ABOUT US </h2>
-                    </div>
+            <!-- CONTENT EVENTS -->
+            <div id="ev" class="section">
+                <!-- CONTENT COMMING EVENTS -->
+                <div class="section container row center-align">
+                    <h4 class="content-header">Proposed/Upcoming Events (Summer 2017)</h4>
+                    <p class="flow-text">Launch Party (held on 6th Sept. '17)
+                        <br/>Enigma
+                        <br/>HackerEarth Hackathon (Membership Drive: Your chance to become a D'Coder)
+                        <br/>Project: SMIT's Own OS (An OS personalised just for you)
+                        <br/>Moodle Workshop
+                        <br/>Beginner's ML using Python
+                        <br/>CodeMeet (ACM-ICPC Competitve Coding)
+                        <br/>Python workshop</p>
                 </div>
-                <div class="row pad-low">
-                    <div class="row hover-color" data-scroll-reveal="enter from the left after .2s">
-                        <div class="media">
-                            <div class="pull-left">
-                                <i class="fa fa-code fa-4x  icon-round "></i>
-                            </div>
-                            <div class="media-body">
-                                <h3 class="media-heading"><br><br>Aim</h3>
-                                <p>
-                                    The D'coderS Group aims to promote an active and dynamic coding culture in campus and encourage students to explore the fun side of software programming.
-                                </p>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row" data-scroll-reveal="enter from the bottom after .2s">
-                        <div class="media">
-                            <div class="pull-left">
-                                <i class="fa fa-terminal fa-4x  icon-round"></i>
-                            </div>
-                            <div class="media-body">
-                                <h3 class="media-heading"><br><br>Objectives</h3>
-                                <p>
-                                    • Encouraging an experimental method to learn how to code better
-                                    <br> • Introducing concepts like FOSS, Big Data, Front-End Development and encouraging developments in the same via bimonthly Code & Design Meets
-                                    <br> • Developing the culture of participating in competitive coding competitions across India such as ACM-ICPC.
-                                    <br> • Working with Groups such as Mozilla Community and GDG India to introduce new local and global tech initiatives in Sikkim.
-                                    <br> • Maintaining Online Code repositories that will act as academic supplements for all students interested in CSE.
-                                    <br>
-
-                                </p>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row" data-scroll-reveal="enter from the right after .2s">
-                        <div class="media">
-                            <div class="pull-left">
-                                <i class="fa fa-laptop fa-4x  icon-round  "></i>
-                            </div>
-                            <div class="media-body">
-                                <h3 class="media-heading"><br><br>Benefits</h3>
-                                <p>
-                                    Promotion of greater role of “Tech” in the SMIT Campus. Encouraging Student Contribution to Open Source Projects hosted by Companies such as Mozilla, Canonical, Google etc. Introducing an excitement for writing and experimenting with Code, especially amongst freshmen students. Connecting SMIT to the World, though National and International Competitions & Events hosted by Mozilla, ACM, CodeChef, IITs amongst others.
-                                </p>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--./ ABOUT SECTION END -->
-        <div id="budget">
-            <div class="container">
+                <div class=" container divider"></div>
+                <!-- CONTENT PAST EVENTS -->
                 <div class="row">
-                    <div color="white" align="center">
-                        <h1>Grand Collab.</h1></div>
-                    <br>
-                    <br>
-                    <div class="col-md-1"></div>
-                    <div class="col-md-1"></div>
-                    <div class="col-md-1"></div>
-                    <div class="col-md-1"></div>
-                    <div class="col-md-1 col-xs-6"><img src="assets\img\moz.jpg" alt="Mozilla"></div>
-                    <div class="col-md-1"></div>
-                    <div class="col-md-1 col-xs-6"><img src="assets\img\dcoders2.jpg" alt="D'CoderS"></div>
-                    <div class="col-md-1"></div>
-                    <div class="col-md-1"></div>
-                    <div class="col-md-1"></div>
-                    <div class="col-md-2"></div>
-
-                </div>
-            </div>
-        </div>
-        <!--./ BUDGET SECTION END -->
-        <div id="impact">
-            <div class="container">
-                <div class="row text-center" data-scroll-reveal="enter from the bottom after .2s">
-                    <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
-                        <h2> Proposed Events: </h2>
-                        <br>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-sm-12 ">
-                        <div data-scroll-reveal="enter from the left after .2s">
-                            <h3>Hackathons (Hack@SMIT)</h3> A two day long competition which encourages students to hack together new and innovative software and hardware projects in just a fortnight.
-                            <br>
-                        </div>
-                        <div data-scroll-reveal="enter from the left after .2s">
-                            <h3>Makeathons (Make@SMIT)</h3> A Week-long event where students gather to work on software and hardware projects and build cool things.
-                            <br>
-                        </div>
-
-                        <div data-scroll-reveal="enter from the left after .2s">
-                            <h3>Hacking SMIT</h3> Interactive sessions on Network Security and ethical hacking.</br>
-                        </div>
-                        <div data-scroll-reveal="enter from the left after .2s">
-                            <h3>Office Hours</h3> Extra mural interaction with professors, innovators and others from the world of technology.
-                        </div>
-                        <div data-scroll-reveal="enter from the left after .2s">
-                            <h3>Code Meets</h3> Relaxed meetings to discuss interesting code and new technology stacks.
-                            <br>
-                        </div>
-                        <div data-scroll-reveal="enter from the left after .2s">
-                            <h3>Codeathons (CODE @ SMIT)</h3> Competitive coding competition simulations that are similar to ACM-ICPC etc.
-                            <br>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--./ IMPACT SECTION END -->
-    <div id="vedio-sec">
-        <div class="container">
-            <div class="row ">
-                <div class="col-lg-12 col-md-12 col-sm-12">
-                    <h3>Who We Are? What We Do ? Checkout teaser.</h3>
+                    <h4 class="content-header center-align">Past Events</h4>
                 </div>
                 <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12" data-scroll-reveal="enter from the right after .2s">
-
-                        <iframe src="https://www.youtube.com/embed/Sn_AxQoQfAA" class="vedio-style" height="460" width="149"></iframe>
+                    <div class="col s12 m6 l6 l6 xl6">
+                        <div class="card hoverable h-fix">
+                            <a class="click-card" href="http://utres/dir/moz_workshop/mozD.html" target="_blank"></a>
+                            <div class="card-content center-align">
+                                <a href="http://utres/dir/moz_workshop/mozD.html" target="_blank"><img src="assets/img/act.jpg" class="responsive-img card-image" width="40%" height="40%"></a>
+                                <div class="card-title">Mozilla Workshop</div>
+                                <div class="blue-text"><a class="waves-effect waves-light btn">View</a></div>
+                            </div>
+                        </div>
                     </div>
-
+                    <div class="col s12 m6 l6 l6 xl6">
+                        <div class="card hoverable h-fix">
+                            <a class="click-card" href="http://utres/events/webdev/index.html" target="_blank"></a>
+                            <div class="card-content center-align">
+                                <a href="http://utres/events/webdev/index.html" target="_blank"><img src="assets/img/webdev.JPG" class="responsive-img card-image" width="45%" height="45%"></a>
+                                <div class="card-title">Web Development workshop</div>
+                                <div class="blue-text"><a class="waves-effect waves-light btn">View</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- CONTENT MENTIONS -->
+                <div id="ms" class="section pink accent-3 white-text">
+                    <div class="carousel carousel-slider center" data-indicators="true">
+                        <div class="carousel-fixed">
+                            <h3 class="content-header">MENTIONS</h3>
+                        </div>
+                        <div class="carousel-item container">
+                            <i class="fa fa-quote-left"></i> <span class="flow-text">Linux is only free if your time has no value.</span> <i class="fa fa-quote-right"></i>
+                            <p class="black-text"><strong>- Jamie Zawinski</strong></p>
+                        </div>
+                        <div class="carousel-item container">
+                            <i class="fa fa-quote-left"></i> <span class="flow-text">It's hard enough to find an error in your code when you're looking for it; it's even harder when you've assumed your code is error-free.</span> <i class="fa fa-quote-right"></i>
+                            <p class="black-text"><strong>- Steve McConnell</strong></p>
+                        </div>
+                        <div class="carousel-item container">
+                            <i class="fa fa-quote-left"></i> <span class="flow-text">Copy and paste is a design error.</span> <i class="fa fa-quote-right"></i>
+                            <p class="black-text"><strong>- David Parnas</strong></p>
+                        </div>
+                        <div class="carousel-item container">
+                            <i class="fa fa-quote-left"></i> <span class="flow-text">Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it.</span> <i class="fa fa-quote-right"></i>
+                            <p class="black-text"><strong>- Brian Kernighan</strong></p>
+                        </div>
+                        <div class="carousel-item container">
+                            <i class="fa fa-quote-left"></i> <span class="flow-text">It's not at all important to get it right the first time. It's vitally important to get it right the last time.</span> <i class="fa fa-quote-right"></i>
+                            <p class="black-text"><strong>- Andrew Hunt and David Thomas</strong></p>
+                        </div>
+                        <div class="carousel-item container">
+                            <i class="fa fa-quote-left"></i> <span class="flow-text">First, solve the problem. Then, write the code.</span> <i class="fa fa-quote-right"></i>
+                            <p class="black-text"><strong>- John Johnson</strong></p>
+                        </div>
+                        <div class="carousel-item container">
+                            <i class="fa fa-quote-left"></i> <span class="flow-text">Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.</span> <i class="fa fa-quote-right"></i>
+                            <p class="black-text"><strong>- Rick Osborne</strong></p>
+                        </div>
+                        <div class="carousel-item container">
+                            <i class="fa fa-quote-left"></i> <span class="flow-text">Any fool can write code that a computer can understand. Good programmers write code that humans can understand.</span> <i class="fa fa-quote-right"></i>
+                            <p class="black-text"><strong>- Martin Fowler</strong></p>
+                        </div>
+                        <div class="carousel-item container">
+                            <i class="fa fa-quote-left"></i> <span class="flow-text">Any code of your own that you haven't looked at for six or more months might as well have been written by someone else.</span> <i class="fa fa-quote-right"></i>
+                            <p class="black-text"><strong>- Eagleson's law</strong></p>
+                        </div>
+                        <div class="carousel-item container">
+                            <i class="fa fa-quote-left"></i> <span class="flow-text">Good code is its own best documentation. As you're about to add a comment, ask yourself, "How can I improve the code so that this comment isn't needed?" Improve the code and then document it to make it even clearer.</span> <i class="fa fa-quote-right"></i>
+                            <p class="black-text"><strong>- Steve McConnell</strong></p>
+                        </div>
+                        <div class="carousel-item container">
+                            <i class="fa fa-quote-left"></i> <span class="flow-text">The first 90% of the code accounts for the first 90% of the development time. The remaining 10% of the code accounts for the other 90% of the development time.</span> <i class="fa fa-quote-right"></i>
+                            <p class="black-text"><strong>- Tom Cargill</strong></p>
+                        </div>
+                        <div class="carousel-item container">
+                            <i class="fa fa-quote-left"></i> <span class="flow-text">Most good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program.</span> <i class="fa fa-quote-right"></i>
+                            <p class="black-text"><strong>- Linus Torvalds (Principal force behind the development of the Linux kernel)</strong></p>
+                        </div>
+                        <div class="carousel-item container">
+                            <i class="fa fa-quote-left"></i> <span class="flow-text">If debugging is the process of removing software bugs, then programming must be the process of putting them in.</span> <i class="fa fa-quote-right"></i>
+                            <p class="black-text"><strong>- Edsger Dijkstra (Dutch computer scientist, winner of the 1972 Turing Award)</strong></p>
+                        </div>
+                        <div class="carousel-item container">
+                            <i class="fa fa-quote-left"></i> <span class="flow-text">Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it.</span> <i class="fa fa-quote-right"></i>
+                            <p class="black-text"><strong>- Brian Kernighan</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- CONTENT ABOUT -->
+                <div id="ab" class="section">
+                    <div class="row">
+                        <h4 class="content-header center-align">About</h4>
+                    </div>
+                    <div class="row">
+                        <div class="col s12 m12 l4 xl4">
+                            <div class="card hoverable h-fix">
+                                <div class="card-content">
+                                    <a class="fa fa-code fa-4x "></a>
+                                    <span class="card-title center">Aim</span>
+                                    <div class="content-header"></div>
+                                    <p>The D'coderS Group aims to promote an active and dynamic coding culture in campus and encourage students to explore the fun side of software programming.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s12 m12 l4 xl4">
+                            <div class="card hoverable h-fix">
+                                <div class="card-content">
+                                    <a class="fa fa-terminal fa-4x "></a>
+                                    <span class="card-title center">Objectives</span>
+                                    <div class="content-header"></div>
+                                    <p>• Encouraging an experimental method to learn how to code better
+                                        <br> • Introducing concepts like FOSS, Big Data, Front-End Development and encouraging developments in the same via bimonthly Code & Design Meets
+                                        <br> • Developing the culture of participating in competitive coding competitions across India such as ACM-ICPC.
+                                        <br> • Working with Groups such as Mozilla Community and GDG India to introduce new local and global tech initiatives in Sikkim.
+                                        <br> • Maintaining Online Code repositories that will act as academic supplements for all students interested in CSE.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s12 m12 l4 xl4">
+                            <div class="card hoverable h-fix">
+                                <div class="card-content">
+                                    <a class="fa fa-laptop fa-4x "></a>
+                                    <span class="card-title center">Benefits</span>
+                                    <div class="content-header"></div>
+                                    <p>Promotion of greater role of “Tech” in the SMIT Campus. Encouraging Student Contribution to Open Source Projects hosted by Companies such as Mozilla, Canonical, Google etc. Introducing an excitement for writing and experimenting with Code, especially amongst freshmen students. Connecting SMIT to the World, though National and International Competitions & Events hosted by Mozilla, ACM, CodeChef, IITs amongst others.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- CONTENT GRAND COLLABORATION -->
+                <div id="gc" class="section">
+                    <div class="row">
+                        <h4 class="content-header center-align white-text">Grand Collab.</h4>
+                    </div>
+                    <div class="row">
+                        <div class="col s12 m4 l4 xl4 offset-m4 offset-l4 offset-xl4">
+                            <div class="row">
+                                <div class="col s12 m6 l6 xl6 h-fix valign-wrapper">
+                                    <div class="row center-align">
+                                        <img src="assets/img/moz.jpg" alt="moz" width="90%" height="90%">
+                                    </div>
+                                </div>
+                                <div class="col s12 m6 l6 xl6 h-fix valign-wrapper">
+                                    <div class="row center-align">
+                                        <img src="assets/img/dcoders2.jpg" alt="dcoders" width="70%" height="70%">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- CONTENT PROPOSED EVENT -->
+                <div id="pe" class="section">
+                    <div class="row">
+                        <h4 class="content-header center-align">Proposed Events</h4>
+                    </div>
+                    <div class="row">
+                        <div class="col s12 m4 l4 xl4">
+                            <div class="card hoverable h-fix">
+                                <div class="card-content">
+                                    <span class="card-title orange-text text-darken-3">Hackathons (Hack@SMIT)</span>
+                                    <p>A two day long competition which encourages students to hack together new and innovative software and hardware projects in just a fortnight.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s12 m4 l4 xl4">
+                            <div class="card hoverable h-fix">
+                                <div class="card-content">
+                                    <span class="card-title orange-text text-darken-3">Makeathons (Make@SMIT)</span>
+                                    <p>A Week-long event where students gather to work on software and hardware projects and build cool things.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s12 m4 l4 xl4">
+                            <div class="card hoverable h-fix">
+                                <div class="card-content">
+                                    <span class="card-title orange-text text-darken-3">Hacking SMIT</span>
+                                    <p>Interactive sessions on Network Security and ethical hacking.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s12 m4 l4 xl4">
+                            <div class="card hoverable h-fix">
+                                <div class="card-content">
+                                    <span class="card-title orange-text text-darken-3">Office Hours</span>
+                                    <p>Extra mural interaction with professors, innovators and others from the world of technology.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s12 m4 l4 xl4">
+                            <div class="card hoverable h-fix">
+                                <div class="card-content">
+                                    <span class="card-title orange-text text-darken-3">Code Meets</span>
+                                    <p>Relaxed meetings to discuss interesting code and new technology stacks.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s12 m4 l4 xl4">
+                            <div class="card hoverable h-fix">
+                                <div class="card-content">
+                                    <span class="card-title orange-text text-darken-3">Codeathons (CODE @ SMIT)</span>
+                                    <p>Competitive coding competition simulations that are similar to ACM-ICPC etc.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- CONTENT VIDEO -->
+            <div class="container">
+                <h4 class="content-header center-align">Who We Are? What We Do? Checkout teaser</h4>
+                <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/Sn_AxQoQfAA" height="100%" width="inherit" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <!-- TEAM -->
+            <div id="ot" class="section">
+                <!-- THE TEAM -->
+                <div class="row">
+                    <h4 class="content-header center-align">THE TEAM</h4>
+                </div>
+                <div class="row">
+                    <div class="col s12 m2 l2 xl2">
+                        <div class="card hoverable h-fix">
+                            <a class="click-card" target="_blank" href="https://www.facebook.com/shymanrikrks"></a>
+                            <div class="card-content">
+                                <a target="_blank" href="https://www.facebook.com/shymanrikrks" class="responsive-img card-image"><img src="assets/img/portfolio/small/5.jpg" height="100%" width="inherit"></a>
+                                <span class="card-title">Rishav Rakshit</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m2 l2 xl2">
+                        <div class="card hoverable h-fix">
+                            <a class="click-card" target="_blank" href="https://www.facebook.com/amitabhbnrj"></a>
+                            <div class="card-content">
+                                <a target="_blank" href="https://www.facebook.com/amitabhbnrj" class="responsive-img card-image"><img src="assets/img/portfolio/small/4.png" height="100%" width="inherit"></a>
+                                <span class="card-title">Amitabh Banerjee</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m2 l2 xl2">
+                        <div class="card hoverable h-fix">
+                            <a class="click-card" target="_blank" href="https://www.facebook.com/spandan.buragohain"></a>
+                            <div class="card-content">
+                                <a target="_blank" href="https://www.facebook.com/spandan.buragohain" class="responsive-img card-image"><img src="assets/img/portfolio/small/3.jpg" height="100%" width="inherit"></a>
+                                <span class="card-title">Spandan Buragohain</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m2 l2 xl2">
+                        <div class="card hoverable h-fix">
+                            <a class="click-card" target="_blank" href="https://www.facebook.com/rohitxsh93"></a>
+                            <div class="card-content">
+                                <a target="_blank" href="https://www.facebook.com/rohitxsh93" class="responsive-img card-image"><img src="assets/img/portfolio/small/1.jpg" height="100%" width="inherit"></a>
+                                <span class="card-title">Rohit Shrivastava</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m2 l2 xl2">
+                        <div class="card hoverable h-fix">
+                            <a class="click-card" target="_blank" href="https://www.facebook.com/sumansuyash"></a>
+                            <div class="card-content">
+                                <a target="_blank" href="https://www.facebook.com/sumansuyash" class="responsive-img card-image"><img src="assets/img/portfolio/small/2.jpg" height="100%" width="inherit"></a>
+                                <span class="card-title">Suman Kumar</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m2 l2 xl2">
+                        <div class="card hoverable h-fix">
+                            <a class="click-card" target="_blank" href="https://www.facebook.com/srinjoy.dutta.9"></a>
+                            <div class="card-content">
+                                <a target="_blank" href="https://www.facebook.com/srinjoy.dutta.9" class="responsive-img card-image"><img src="assets/img/portfolio/small/11.jpg" height="100%" width="inherit"></a>
+                                <span class="card-title">Srinjoy Dutta</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m2 l2 xl2">
+                        <div class="card hoverable h-fix">
+                            <a class="click-card" target="_blank" href="https://www.facebook.com/saubhagyakumarsingh"></a>
+                            <div class="card-content">
+                                <a target="_blank" href="https://www.facebook.com/saubhagyakumarsingh" class="responsive-img card-image"><img src="assets/img/portfolio/small/9.jpg" height="100%" width="inherit"></a>
+                                <span class="card-title">Saubhagya Sharma</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m2 l2 xl2">
+                        <div class="card hoverable h-fix">
+                            <a class="click-card" target="_blank" href="https://www.facebook.com/tejaswini.sapkota.1"></a>
+                            <div class="card-content">
+                                <a target="_blank" href="https://www.facebook.com/tejaswini.sapkota.1" class="responsive-img card-image"><img src="assets/img/portfolio/small/6.jpg" height="100%" width="inherit"></a>
+                                <span class="card-title">Tejaswini Sapkota</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m2 l2 xl2">
+                        <div class="card hoverable h-fix">
+                            <a class="click-card" target="_blank" href="https://www.facebook.com/ritwik.singh.908132"></a>
+                            <div class="card-content">
+                                <a target="_blank" href="https://www.facebook.com/ritwik.singh.908132" class="responsive-img card-image"><img src="assets/img/portfolio/small/7.png" height="100%" width="inherit"></a>
+                                <span class="card-title">Ritwik Singh</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m2 l2 xl2">
+                        <div class="card hoverable h-fix">
+                            <a class="click-card" target="_blank" href="https://www.facebook.com/prithvi.kandappan"></a>
+                            <div class="card-content">
+                                <a target="_blank" href="https://www.facebook.com/prithvi.kandappan" class="responsive-img card-image"><img src="assets/img/portfolio/small/8.jpg" height="100%" width="inherit"></a>
+                                <span class="card-title">Prithvi Kandappan</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m2 l2 xl2">
+                        <div class="card hoverable h-fix">
+                            <a class="click-card" target="_blank" href="https://www.facebook.com/ayush.mittal.9404"></a>
+                            <div class="card-content">
+                                <a target="_blank" href="https://www.facebook.com/ayush.mittal.9404" class="responsive-img card-image"><img src="assets/img/portfolio/small/12.jpg" height="100%" width="inherit"></a>
+                                <span class="card-title">Ayush Mittal</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m2 l2 xl2">
+                        <div class="card hoverable h-fix">
+                            <a class="click-card" target="_blank" href="https://www.facebook.com/soumyadeep.basu1"></a>
+                            <div class="card-content">
+                                <a target="_blank" href="https://www.facebook.com/soumyadeep.basu1" class="responsive-img card-image"><img src="assets/img/portfolio/small/10.jpg" height="100%" width="inherit"></a>
+                                <span class="card-title">Soumyadeep Basu</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- THE MENTOR -->
+                <div class="row container">
+                    <div class="col s12 m4 l4 xl4 offset-m4 offset-l4 offset-xl4">
+                        <h5 class="content-header center-align">OUR TEACHER MENTOR</h5>
+                        <div class="card hoverable h-fix">
+                            <a class="click-card" target="_blank" href="https://www.facebook.com/sunildhimal"></a>
+                            <div class="card-content">
+                                <a target="_blank" href="https://www.facebook.com/sunildhimal"><img class="responsive-img card-image" src="assets/img/portfolio/small/13.jpg" width="inherit" height="100%"></a>
+                                <span class="card-title">Mr. Sunil Dhimal</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FOOTER -->
+        <div id="ft" class="footer grey darken-4 white-text">
+            <div class="container">
+                <div class="row">
+                    <!-- SMALL INTRO -->
+                    <div class="col s12 m8 l8 xl8">
+                        <!--<h5>tldr;</h5>-->
+                        <h5 style="color:#e53935">A small intro</h5>
+                        <p>Computer programming is at the core of our DNA. We want to uplift the coding culture at SMIT to bring it at par with other leading institutions. Our 'Codemeets' sessions help enhance one's coding skills, being extremely helpful in competitive coding. The meetings will cover various concepts and algorithms which are used to crack tough problems with high efficiency.</p>
+                    </div>
+                    <!-- SOCIAL -->
+                    <div class="col s12 m4 l4 xl4 right-align">
+                        <!-- SOCIAL LINKS ROW -->
+                        <div class="row">
+                            <h5>Our Social Links</h5>
+                            <a target="_blank" href="https://www.facebook.com/dcodersmoz/"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+                            <a target="_blank" href="https://www.youtube.com/channel/UCa1CQqspsiWxYcBBbB1FZng"><i id="social-yt" class="fa fa-youtube-square fa-3x social"></i></a>
+                            <a target="_blank" href="https://github.com/DCoderS-Moz/"><i id="social-gh" class="fa fa-github-square fa-3x social"></i></a>
+                            <a target="_blank" href="mailto:dcoderssmit@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+                        </div>
+                        <!-- FOOTER TAG LINE ROW -->
+                        <div class="row">
+                            &nbsp &nbsp By D'CoderS in
+                            <div class='fa fa-heart'></div> with
+                            <div class='fa fa-code'></div>ing </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <!--./ VEDIO SECTION END -->
-    <div id="recent-events">
-        <div class="container">
-            <div class="row text-center" data-scroll-reveal="enter from the bottom after .2s">
-                <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
-                    <h2>OUR TEAM</h2>
-                </div>
-            </div>
-            <div class="row pad-low " data-scroll-reveal="enter from the top after .2s">
-                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6  ">
-                    <div class="recent-events-wrap">
-                        <img class="img-responsive" src="assets/img/portfolio/small/5.jpg" alt="user">
-                        <div class="overlay">
-                            <div class="recent-events-inner">
-                                <h5><a href="https://www.facebook.com/shymanrikrks" target="_blank"><u>Rishav Rakshit</u></a></h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6  ">
-                    <div class="recent-events-wrap">
-                        <img class="img-responsive" src="assets/img/portfolio/small/1.jpg" alt="user">
-                        <div class="overlay">
-                            <div class="recent-events-inner">
-                                <h5><a href="https://www.facebook.com/rohitxsh93" target="_blank"><u>Rohit Shrivastava</u></a></h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6  ">
-                    <div class="recent-events-wrap">
-                        <img class="img-responsive" src="assets/img/portfolio/small/2.jpg" alt="user">
-                        <div class="overlay">
-                            <div class="recent-events-inner">
-                                <h5><a href="https://www.facebook.com/sumansuyash" target="_blank"><u>Suman Kumar</u></a></h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6  ">
-                    <div class="recent-events-wrap">
-                        <img class="img-responsive" src="assets/img/portfolio/small/4.png" alt="user">
-                        <div class="overlay">
-                            <div class="recent-events-inner">
-                                <h5><a href="https://www.facebook.com/amitabhbnrj" target="_blank"><u>Amitabh Banerjee</u></a></h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6  ">
-                    <div class="recent-events-wrap">
-                        <img class="img-responsive" src="assets/img/portfolio/small/3.jpg" alt="user">
-                        <div class="overlay">
-                            <div class="recent-events-inner">
-                                <h5><a href="https://www.facebook.com/spandan.buragohain" target="_blank"><u>Spandan Buragohain</u></a></h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6  ">
-                    <div class="recent-events-wrap">
-                        <img class="img-responsive" src="assets/img/portfolio/small/11.jpg" alt="user">
-                        <div class="overlay">
-                            <div class="recent-events-inner">
-                                <h5><a href="https://www.facebook.com/srinjoy.dutta.9" target="_blank"><u>Srinjoy Dutta</u></a></h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row pad-low " data-scroll-reveal="enter from the top after .2s">
-                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6  ">
-                    <div class="recent-events-wrap">
-                        <img class="img-responsive" src="assets/img/portfolio/small/9.jpg" alt="user">
-                        <div class="overlay">
-                            <div class="recent-events-inner">
-                                <h5><a href="https://www.facebook.com/saubhagyakumarsingh" target="_blank"><u>Saubhagya Sharma</u></a></h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6  ">
-                    <div class="recent-events-wrap">
-                        <img class="img-responsive" src="assets/img/portfolio/small/6.jpg" alt="user">
-                        <div class="overlay">
-                            <div class="recent-events-inner">
-                                <h5><a href="https://www.facebook.com/tejaswini.sapkota.1" target="_blank"><u>Tejaswini Sapkota</u></a></h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6  ">
-                    <div class="recent-events-wrap">
-                        <img class="img-responsive" src="assets/img/portfolio/small/7.png" alt="user">
-                        <div class="overlay">
-                            <div class="recent-events-inner">
-                                <h5><a href="https://www.facebook.com/ritwik.singh.908132" target="_blank"><u>Ritwik Singh</u></a></h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6  ">
-                    <div class="recent-events-wrap">
-                        <img class="img-responsive" src="assets/img/portfolio/small/8.jpg" alt="user">
-                        <div class="overlay">
-                            <div class="recent-events-inner">
-                                <h5><a href="https://www.facebook.com/prithvi.kandappan" target="_blank"><u>Prithvi Kandappan</u></a></h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6  ">
-                    <div class="recent-events-wrap">
-                        <img class="img-responsive" src="assets/img/portfolio/small/12.jpg" alt="user">
-                        <div class="overlay">
-                            <div class="recent-events-inner">
-                                <h5><a href="https://www.facebook.com/ayush.mittal.9404" target="_blank"><u>Ayush Mittal</u></a></h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6  ">
-                    <div class="recent-events-wrap">
-                        <img class="img-responsive" src="assets/img/portfolio/small/10.jpg" alt="user">
-                        <div class="overlay">
-                            <div class="recent-events-inner">
-                                <h5><a href="https://www.facebook.com/soumyadeep.basu1" target="_blank"><u>Soumyadeep Basu</u></a></h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row text-center" data-scroll-reveal="enter from the bottom after .2s">
-                <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
-                    <h2><br><br><br>OUR TEACHER MENTOR</h2>
-                </div>
-            </div>
-            <div class="row pad-low " data-scroll-reveal="enter from the top after .2s">
-                <div class="col-lg-4 col-md-4 col-sm-2 col-xs-2"></div>
-                <div class="col-lg-4 col-md-4 col-sm-8 col-xs-8">
-                    <div class="recent-events-wrap">
-                        <img class="img-responsive" src="assets/img/portfolio/small/13.jpg" alt="user">
-                        <div class="overlay">
-                            <div class="recent-events-inner">
-                                <h5><a href="https://www.facebook.com/sunildhimal" target="_blank"><u>Mr. Sunil Dhimal</u></a></h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-2 col-xs-2"></div>
-            </div>
-        </div>
-    </div>
-    <!--./ EVENT SECTION END -->
-    <!--<section id="contact">
-    <div class="container">
-
-            <div class="row text-center" data-scroll-reveal="enter from the bottom after .2s">
-                <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
-                    <h2>CONTACT US</h2>
-                    <p>Give us your message.</p>
-                    <br />
-                </div>
-
-            </div>
-         <div class="row ">
-              <div class="col-lg-6  col-md-6  col-sm-6 cont-div">
-                <form>
-                    <div class="form-group" data-scroll-reveal="enter from the left after .2s">
-                        <input type="text" class="form-control" required="required" placeholder="Your Name">
-                    </div>
-                    <div class="form-group" data-scroll-reveal="enter from the left after .2s">
-                        <input type="text" class="form-control" required="required" placeholder="Your Email">
-                    </div>
-                    <div class="form-group" data-scroll-reveal="enter from the left after .2s">
-                        <textarea name="message" id="message" required="required" class="form-control" style="min-height: 100px;" placeholder="Message"></textarea>
-                    </div>
-                    <div class="form-group" data-scroll-reveal="enter from the left after .2s">
-                        <button type="submit" class="btn btn-style-2 ">Submit Request</button>
-                    </div>
-
-                </form>
-            </div>
-                  <div class="col-lg-4 col-lg-offset-1  col-md-4  col-md-offset-1 col-sm-4 col-sm-offset-1" data-scroll-reveal="enter from the right after .2s">
-                <h3><strong>Contacts </strong></h3>
-                <p></p>
-
-                <p><strong>ADDRESS :</strong> SMIT- 1234</p>
-                <br />
-                <form role="form">
-                    <div class="input-group">
-                        <input type="text" class="form-control " autocomplete="off" placeholder="Enter your email" required="">
-                        <span class="input-group-btn">
-                            <button class="btn  btn-primary " type="button">Subdcribe!</button>
-                        </span>
-                    </div>
-                </form>
-            </div>
-
-        </div>
-    </div>
-</section>-->
-    <!--./ Contact End -->
-    <div id="footer-sec">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-4" id="about-ftr">
-                    <div class="fb-page" data-tabs="timeline,events,messages" data-href="https://www.facebook.com/dcodersmoz" data-width="380" data-hide-cover="false"></div>
-                    <h3><span>A Small Intro</span></h3>
-                    <p>
-                        Computer programming is at the core of our DNA. We want to uplift the coding culture at SMIT to bring it at par with other leading institutions. Our 'Codemeets' sessions help enhance one's coding skills, being extremely helpful in competitive coding. The meetings will cover various concepts and algorithms which are used to crack tough problems with high efficiency.
-                    </p>
-                </div>
-                <div class="col-lg-4 col-md-4">
-                    <h3><span>Designed & Developed by</span></h3>
-                    <div id="blog-footer-div">
-                        <div class="media">
-                            <div class="pull-left">
-                                <img src="assets/img/user.jpg" class="img-thumbnail" alt="user">
-                            </div>
-                            <div class="pull-left">
-                                <img src="assets/img/user2.jpg" class="img-thumbnail" alt="user">
-                            </div>
-
-                        </div>
-                        <div class="media">
-                            <div class="media-body">
-                                <span class="media-heading">ROHIT &nbsp &nbsp &nbsp &nbsp &nbsp SUMAN</span>
-                                <small class="muted"></small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-4">
-                    <h3><span>Contact</span></h3>
-                    <div>
-                        E-mail: <a href="mailto:dcoderssmit@gmail.com">dcoderssmit@gmail.com</a>
-
-                    </div>
-                    <div class="form-group">
-                        <a type="submit" class="btn btn-style-2 " href="https://www.facebook.com/dcodersmoz/" target="_blank"> <i class="fa fa-facebook-square"> &nbsp Facebook</i></a>
-                    </div>
-                    <div class="form-group">
-                        <a type="submit" class="btn btn-style-2 " href="https://github.com/DCoderS-Moz/" target="_blank"><i class="fa fa-github"> &nbsp Github</i></a>
-                    </div>
-                    <div class="form-group">
-                        <a type="submit" class="btn btn-style-2 " href="https://www.youtube.com/channel/UCa1CQqspsiWxYcBBbB1FZng" target="_blank"> <i class="fa fa-youtube"> &nbsp Youtube</i></a>
-                    </div>
-                    <!--<div class="form-group">
-                    <a type="submit" class="btn btn-style-2 " href="https://www.facebook.com/">Facebook</a>
-                </div>-->
-
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="footser-end">
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-12 col-md-12">
-                    <div class="fa fa-terminal"></div>&nbsp &nbsp By D'CoderS in<div class="fa fa-heart"> with<div class="fa fa-code">ing</div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-        <!--./ footer-end End -->
-        <div class="move-me">
-
-            <a href="#" class="scrollup"><i class="fa fa-chevron-up"></i></a>
-        </div>
-        <!--END SCROLLUP LINK SECTION-->
-
-        <!--  Jquery Core Script -->
-        <script src="assets/js/jquery-1.10.2.js"></script>
-        <!--  Core Bootstrap Script -->
-        <script src="assets/js/bootstrap.js"></script>
-        <!--  Scrolling Script -->
-        <script src="assets/js/jquery.easing.min.js"></script>
-        <!--  PrettyPhoto Script -->
-        <script src="assets/js/jquery.prettyPhoto.js"></script>
-        <!--  knob Scripts -->
-        <script src="assets/js/jquery.knob.js"></script>
-        <!--  SCROLL REVEAL Scripts -->
-        <script src="assets/js/scrollReveal.js"></script>
-        <!--  Custom Scripts -->
-        <script src="assets/js/custom.js"></script>
-        <script src="assets/js/jquery.smooth-scroll.js"></script>
-        <script type="text/javascript">
-            var sc_project = 11437380;
-            var sc_invisible = 1;
-            var sc_security = "07f65452";
-            var scJsHost = (("https:" == document.location.protocol) ?
-                "https://secure." : "http://www.");
-            document.write("<sc" + "ript type='text/javascript' src='" +
-                scJsHost +
-                "statcounter.com/counter/counter.js'></" + "script>");
-        </script>
-        <script src="lib/jquery/jquery.js"></script>
-        <script src="src/jquery.smooth-scroll.js"></script>
-        <script src="lib/jquery.ba-bbq.js"></script>
-        <script>
-            $(document)
-                .on('click', 'a[href*="#"]', function() {
-                    if (this.hash && this.pathname === location.pathname) {
-                        $.bbq.pushState('#/' + this.hash.slice(1));
-                        return false;
-                    }
-                })
-                .ready(function() {
-                    $(window).bind('hashchange', function(event) {
-                        var tgt = location.hash.replace(/^#\/?/, '');
-                        if (document.getElementById(tgt)) {
-                            $.smoothScroll({
-                                scrollTarget: '#' + tgt
-                            });
-                        }
-                    });
-
-                    $(window).trigger('hashchange');
-                });
-        </script>
 </body>
 
 </html>
