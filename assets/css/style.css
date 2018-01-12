@@ -535,3 +535,7 @@ opacity: 0.5;
 .verticalLine{
   border-left: thick solid #ff0000;
 }
+@font-face {
+font-family: "Bariol";
+src: url("../fonts/Bariol_Bold.otf");
+}
