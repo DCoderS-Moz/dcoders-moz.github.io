@@ -1,0 +1,277 @@
+/*
+ * D'CoderS v3 (https://dcoders.org/)
+ * Author: Rishav Anand;
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@font-face {
+    font-family: Berton-Roman-trial;
+    src: url(../fonts/Berton-Roman-trial.ttf);
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    color: #222;
+    /*background-color: #f0f0f0;*/
+    margin: 0;
+    -webkit-overflow-scrolling: touch;
+    overflow-y: scroll;
+}
+
+.bg-dark {
+    background-color: black!important;
+}
+
+.test {
+    color: white;
+    font-family: 'Berton-Roman-trial';
+}
+
+.quote {
+    max-width: 100%;
+}
+
+.jumbotron {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 50vh;
+    border-radius: 0;
+    color: white;
+    text-align: center;
+    background: url('../img/collage.jpg');
+    background-size: cover;
+    margin-bottom: 0;
+}
+
+.jumbotron2 {
+    border-radius: 0;
+    color: white;
+    text-align: center;
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: black;
+    background: url('../img/collage.jpg');
+    background-size: cover;
+    box-shadow: inset 0px 21px 20px -10px black,
+    inset 0px -21px 20px -10px black;
+}
+
+.jumbotron h1 {
+    font-family: 'Amatic SC', cursive;
+}
+
+.jumbotron a {
+    color: white;
+}
+
+
+.jumbotron img {
+    height: 200px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 15px;
+    /*text-decoration: none;
+    border-bottom: 2px solid #e74c3c;*/
+    padding-bottom: 30px;
+}
+
+.workshop-title {
+    background-color: white;
+}
+
+.card-body {
+    height: 100%;
+}
+
+u {
+    text-decoration: none;
+    border-bottom: 2px solid #e74c3c;
+}
+
+.card {
+    text-align: center;
+}
+
+.card-img {
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.workshop {
+    text-align: center;
+}
+
+​ .main-body {
+    padding-top: 50px;
+}
+
+.nav-center {
+    text-align: center;
+}
+
+.nav-list {
+    margin: auto;
+}
+
+
+/* TEAM SECTION START */
+
+#team {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.member-image {
+    border-radius: 50%;
+    width: 70px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.center-name {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.member-name {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+@media screen and (max-width: 641px) {
+
+    .member-image {
+        width: 50px;
+    }
+}
+
+@media screen and (max-width: 995px) and (min-width: 768px) {
+
+    .member-name {
+        padding-left: 20px;
+    }
+}
+
+.mentor-image{
+    width: 60%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.mentor-comment {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+/* TEAM SECTION END */
+
+.footer {
+    background-color: black;
+    color: white;
+    overflow-x: hidden;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.fa-heart {
+    color: red;
+}
+
+.social {
+    color: white;
+}
+
+.contact-form {
+    width: 50%;
+    overflow-x: hidden;
+}
+
+#contact {
+    background-color: WhiteSmoke;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    overflow-x: hidden;
+}
+
+#workshops {
+    background-color: WhiteSmoke;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    overflow-x: hidden;
+}
+
+#timeline {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.card-title{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 641px) {
+
+    .contact-form {
+        width: 100%;
+    }
+}
+
+.contact-form input {
+    height: 60px;
+    background-color: #dfe6e9;
+}
+
+.contact-form textarea {
+    height: 120px;
+    background-color: #dfe6e9;
+}
+
+.contact-form button {
+    width: 100%;
+    height: 60px;
+}
+
+.spacing {
+    display: hidden;
+}
+
+@media screen and (max-width: 641px) {
+
+    .spacing {
+        display: block;
+        margin: 10px;
+    }
+}
+
+
+/*hr{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-style: none;
+}
+*/
+
+nav {
+    margin-bottom: 40px;
+}
+
+.nav-link {
+    cursor: default;
+}
