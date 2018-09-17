@@ -1,5 +1,5 @@
 /*
- * D'CoderS v3 (https://dcoders.org/)
+ * D'CoderS v2.0 (https://dcoders.org/)
  * Author: Rishav Anand;
  */
 
@@ -10,26 +10,35 @@
     src: url(../fonts/Berton-Roman-trial.ttf);
 }
 
+
+
+/* BODY */
+
 body {
     font-family: 'Ubuntu', sans-serif;
     color: #222;
-    /*background-color: #f0f0f0;*/
     margin: 0;
     -webkit-overflow-scrolling: touch;
     overflow-y: scroll;
 }
 
+.title {
+    font-weight: bold;
+    font-size: 15px;
+    padding-bottom: 30px;
+}
+
+u {
+    text-decoration: none;
+    border-bottom: 2px solid #e74c3c;
+}
+
+
+
+/* HEADER SECTION START */
+
 .bg-dark {
     background-color: black!important;
-}
-
-.test {
-    color: white;
-    font-family: 'Berton-Roman-trial';
-}
-
-.quote {
-    max-width: 100%;
 }
 
 .jumbotron {
@@ -46,20 +55,6 @@ body {
     margin-bottom: 0;
 }
 
-.jumbotron2 {
-    border-radius: 0;
-    color: white;
-    text-align: center;
-    background-color: black;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-color: black;
-    background: url('../img/collage.jpg');
-    background-size: cover;
-    box-shadow: inset 0px 21px 20px -10px black,
-    inset 0px -21px 20px -10px black;
-}
-
 .jumbotron h1 {
     font-family: 'Amatic SC', cursive;
 }
@@ -68,18 +63,41 @@ body {
     color: white;
 }
 
-
 .jumbotron img {
     height: 200px;
 }
 
-.title {
-    font-weight: bold;
-    font-size: 15px;
-    /*text-decoration: none;
-    border-bottom: 2px solid #e74c3c;*/
-    padding-bottom: 30px;
+
+
+/* NAV SECTION */
+
+nav {
+    margin-bottom: 40px;
 }
+
+.nav-link {
+    cursor: default;
+}
+
+.nav-center {
+    text-align: center;
+}
+
+.nav-list {
+    margin: auto;
+}
+
+
+
+/* ABOUT SECTION */
+
+​.about {
+    padding-top: 50px;
+}
+
+
+
+/* WORKSHOP SECTION */
 
 .workshop-title {
     background-color: white;
@@ -87,11 +105,6 @@ body {
 
 .card-body {
     height: 100%;
-}
-
-u {
-    text-decoration: none;
-    border-bottom: 2px solid #e74c3c;
 }
 
 .card {
@@ -108,26 +121,59 @@ u {
     margin-bottom: 20px;
 }
 
+.card-title {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
 .workshop {
     text-align: center;
     display: flex;
     justify-content: center;
 }
 
-​.about {
-    padding-top: 50px;
+#workshops {
+    background-color: WhiteSmoke;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    overflow-x: hidden;
+    margin-top: 20px;
 }
 
-.nav-center {
+
+
+/* TIMELINE SECTION */
+
+#timeline {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+
+/* QUOTE SECTION */
+
+.quote {
+    max-width: 100%;
+}
+
+.jumbotron2 {
+    border-radius: 0;
+    color: white;
     text-align: center;
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: black;
+    background: url('../img/collage.jpg');
+    background-size: cover;
+    box-shadow: inset 0px 21px 20px -10px black,
+    inset 0px -21px 20px -10px black;
 }
 
-.nav-list {
-    margin: auto;
-}
 
 
-/* TEAM SECTION START */
+/* TEAM SECTION */
 
 #team {
     padding-top: 40px;
@@ -166,7 +212,7 @@ u {
     }
 }
 
-.mentor-image{
+.mentor-image {
     width: 60%;
     border-radius: 50%;
     margin-bottom: 10px;
@@ -180,24 +226,8 @@ u {
 }
 
 
-/* TEAM SECTION END */
 
-.footer {
-    background-color: black;
-    color: white;
-    overflow-x: hidden;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-align: center;
-}
-
-.fa-heart {
-    color: red;
-}
-
-.social {
-    color: white;
-}
+/* CONTACT SECTION */
 
 #contact {
     background-color: WhiteSmoke;
@@ -205,26 +235,6 @@ u {
     padding-bottom: 50px;
     overflow-x: hidden;
 }
-
-#workshops {
-    background-color: WhiteSmoke;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    overflow-x: hidden;
-    margin-top: 20px;
-}
-
-#timeline {
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-
-.card-title{
-    padding-bottom: 0;
-    margin-bottom: 0;
-}
-
-/* CONTACT SECTION  START*/
 
 .contact-form {
     width: 50%;
@@ -253,12 +263,23 @@ u {
     }
 }
 
-/* CONTACT SECTION  END*/
 
-nav {
-    margin-bottom: 40px;
+
+/* FOOTER SECTION */
+
+.footer {
+    background-color: black;
+    color: white;
+    overflow-x: hidden;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
 }
 
-.nav-link {
-    cursor: default;
+.fa-heart {
+    color: red;
+}
+
+.social {
+    color: white;
 }
