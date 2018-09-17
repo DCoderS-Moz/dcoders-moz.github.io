@@ -110,9 +110,11 @@ u {
 
 .workshop {
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
-​ .main-body {
+​.about {
     padding-top: 50px;
 }
 
@@ -197,11 +199,6 @@ u {
     color: white;
 }
 
-.contact-form {
-    width: 50%;
-    overflow-x: hidden;
-}
-
 #contact {
     background-color: WhiteSmoke;
     padding-top: 40px;
@@ -214,6 +211,7 @@ u {
     padding-top: 40px;
     padding-bottom: 40px;
     overflow-x: hidden;
+    margin-top: 20px;
 }
 
 #timeline {
@@ -226,11 +224,11 @@ u {
     margin-bottom: 0;
 }
 
-@media screen and (max-width: 641px) {
+/* CONTACT SECTION  START*/
 
-    .contact-form {
-        width: 100%;
-    }
+.contact-form {
+    width: 50%;
+    overflow-x: hidden;
 }
 
 .contact-form input {
@@ -248,25 +246,14 @@ u {
     height: 60px;
 }
 
-.spacing {
-    display: hidden;
-}
+@media screen and (max-width: 990px) {
 
-@media screen and (max-width: 641px) {
-
-    .spacing {
-        display: block;
-        margin: 10px;
+    .contact-form {
+        width: 100%;
     }
 }
 
-
-/*hr{
-    margin-top: 50px;
-    margin-bottom: 30px;
-    border-style: none;
-}
-*/
+/* CONTACT SECTION  END*/
 
 nav {
     margin-bottom: 40px;
