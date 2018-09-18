@@ -38,10 +38,10 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse nav-center">
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
                 <ul class="navbar-nav mr-auto nav-list">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" onclick="pageScroll('about')">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" onclick="pageScroll('workshops')">Workshops</a>
@@ -65,7 +65,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <h2 class="title"><u>ABOUT US</u></h2>
-                    <p>D'CoderS was one of the first technical club of Sikkim Manipal Institute of Technology. Is was founded in the year 2016 and has been actively organizing technical workshops and competitions ever since.</p>
+                    <p>D'CoderS was one of the first coding club of Sikkim Manipal Institute of Technology under CSE Dept. It was founded in the year 2016 and has been actively organizing technical workshops and competitions ever since.</p>
                 </div>
                 <span class="spacing"></span>
                 <div class="col-md-6">
@@ -75,12 +75,12 @@
             </div>
         </div>
     </div>
-    <!-- WORKSHOPS AND COMPETITIONS -->
-    <div class="workshops" id="workshops">
+    <!-- WORKSHOPS -->
+    <div id="workshops">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h2 class="title"><u>WORKSHOPS AND COMPETITIONS</u></h2>
+                    <h2 class="title"><u>WORKSHOPS</u></h2>
                 </div>
                 <div class="col-md-4 workshop">
                     <div class="card">
@@ -119,43 +119,41 @@
         </div>
     </div>
     <!-- TIMELINE -->
-    <div class="timeline" id="timeline">
+    <div id="timeline">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <h2 class="title"><u>TIMELINE</u></h2>
                 </div>
-                <!-- <div class="col-sm-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Intro session</h5>
-                            <p>Coming soon</p>
-                            <span class="badge badge-warning">TO ANNOUNCE SOON</span>
-                        </div>
-                    </div>
-                </div> -->
-                <div class="col-md-4 col-sm-12 col-12">
+                <div class="col-md-4 col-sm-12 col-12 timeline">
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Scratch workshop</h5>
                             <!-- <p>September 22<sup>nd</sup>, 2018</p> -->
-                            <div class="badge badge-warning">CLICK TO KNOW MORE</div>
+                            <!-- <div class="badge badge-success">SCHEDULED</div> -->
+                            <div class="badge badge-warning">COMING SOON</div>
+                            <hr>
+                            <p>A workshop where we teach you the basics of programming with probably the easiest programming language called Scratch, developed by MIT.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-12 col-12">
+                <div class="col-md-4 col-sm-12 col-12 timeline">
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Classroom Session</h5>
-                            <span class="badge badge-secondary">PLANNING</span>
+                            <div class="badge badge-warning">COMING SOON</div>
+                            <hr>
+                            <p>A session where we survey the most difficult topics from your academic syllabus and discuss it with you in the most interactive way possible. </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-12 col-12">
+                <div class="col-md-4 col-sm-12 col-12 timeline">
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">Python workshop</h5>
-                            <span class="badge badge-secondary">PLANNING</span>
+                            <h5 class="card-title">Weekly Code Battle</h5>
+                            <div class="badge badge-warning">COMING SOON</div>
+                            <hr>
+                            <p>A series of weekly coding competitons consisting of easy to intermediate questions which the participants solve on the Codechef IDE to move up on the D'CoderS leaderboard.</p>
                         </div>
                     </div>
                 </div>
@@ -167,8 +165,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h2><div class="test">"I think everybody in this country should learn how to program a computer because it teaches you how to think."</div></h2>
-                    <h2><div class="test pull-right">-Steve Jobs</div></h2>
+                    <h2><div class="quote">"I think everybody in this country should learn how to program a computer because it teaches you how to think."</div></h2>
+                    <h2><div class="quote pull-right">-Steve Jobs</div></h2>
                 </div>
             </div>
         </div>
@@ -329,7 +327,7 @@
         </div>
     </div>
     <script async src="js/jquery-3.3.1.min.js"></script>
-    <script async src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script>
     var pageScroll = (id) => {
         $('html, body').animate({ scrollTop: $("#" + id).offset().top - 100 }, 1000);

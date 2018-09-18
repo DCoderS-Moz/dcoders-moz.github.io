@@ -87,6 +87,18 @@ nav {
     margin: auto;
 }
 
+.navbar-collapse{
+    text-align: center;
+}
+
+.navbar-toggler{
+    width: 100%;
+}
+
+.navbar-dark .navbar-toggler{
+    border: 0!important;
+}
+
 
 
 /* ABOUT SECTION */
@@ -126,19 +138,21 @@ nav {
     margin-bottom: 0;
 }
 
+#workshops {
+    background-color: WhiteSmoke;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    overflow-x: hidden;
+    margin-top: 20px;
+}
+
 .workshop {
     text-align: center;
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
 }
 
-#workshops {
-    background-color: WhiteSmoke;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    overflow-x: hidden;
-    margin-top: 20px;
-}
 
 
 
@@ -146,7 +160,14 @@ nav {
 
 #timeline {
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
+}
+
+.timeline{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
 
@@ -154,7 +175,8 @@ nav {
 /* QUOTE SECTION */
 
 .quote {
-    max-width: 100%;
+    color: white;
+    font-family: 'Berton-Roman-trial';
 }
 
 .jumbotron2 {
