@@ -215,6 +215,11 @@ nav {
     flex-direction: column;
 }
 
+.member-name:hover{
+    cursor: pointer;
+    color: grey;
+}
+
 .member-name {
     font-weight: bold;
     font-size: 13px;
@@ -240,11 +245,31 @@ nav {
     margin-bottom: 10px;
 }
 
+.member-image:hover {
+    cursor: pointer;
+}
+
 .mentor-comment {
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: center;
+}
+
+.modal-body{
+    text-align: center;
+}
+
+.modal-body h5{
+    margin: 0;
+}
+
+.fa{
+    padding-left: 5px;
+}
+
+.member-social-links a{
+    color: black;
 }
 
 
