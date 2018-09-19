@@ -344,7 +344,7 @@
                         <span id="modal-member-facebook">
                 			<a href="https://facebook.com/iamrishavanand"><i class="fa fa-facebook"></i></a>
                 		</span>
-                		<span id="modal-member-twitter">
+                        <span id="modal-member-twitter">
                 			<a href="https://facebook.com/iamrishavanand"><i class="fa fa-twitter"></i></a>
                 		</span>
                         <span id="modal-member-email">
@@ -363,7 +363,7 @@
     }
     var memberInfo = {
         'rishav': {
-        	'name': 'Rishav Anand',
+            'name': 'Rishav Anand',
             'website_link': 'https://rishavanand.com',
             'website_name': 'rishavanand.com',
             'github_link': 'https://github.com/rishavanand',
@@ -371,28 +371,28 @@
             'email': 'rishavdipsite@gmail.com'
         },
         'mihir': {
-        	'name': 'Mihir',
+            'name': 'Mihir',
             'github_link': 'https://www.github.com/mihirsam',
             'email': 'sammihir.sam@gmail.com'
         },
         'deep': {
-        	'name': 'Deep Shikha',
+            'name': 'Deep Shikha',
             'facebook_link': 'https://www.facebook.com/deep.shikha.2010',
             'email': 'shikhadeep973@gmail.com'
         },
         'rohan': {
-        	'name': 'Rohan Prasad',
+            'name': 'Rohan Prasad',
             'github_link': 'https://github.com/rohanpd4',
             'facebook_link': 'https://www.facebook.com/rohan.prasad3',
             'email': 'prasadrohan04@gmail.com',
             'twitter_link': 'https://twitter.com/rohanprasad04'
         },
         'sutapa': {
-        	'name': 'Sutapa',
+            'name': 'Sutapa',
             'email': 'sutapa.sagar@gmail.com'
         },
         'shouvik': {
-        	'name': 'Shouvik Mukherjee',
+            'name': 'Shouvik Mukherjee',
             'email': 'shouvikmukherjee34@gmail.com',
             'facebook_link': 'https://www.facebook.com/shouvik.mukherjee.77',
             'github_link': 'https://github.com/muksho',
@@ -401,86 +401,96 @@
             'website_name': 'muksho.github.io'
         },
         'barsha': {
-        	'name': 'Barsha Sharma',
-        	'email': '99barshasharma@gmail.com',
-        	'facebook_link': 'https://m.facebook.com/barsha.sharma.7965?ref=bookmarks'
+            'name': 'Barsha Sharma',
+            'email': '99barshasharma@gmail.com',
+            'facebook_link': 'https://m.facebook.com/barsha.sharma.7965?ref=bookmarks'
         },
         'gowtham': {
-        	'name': 'Gowtham S',
-        	'email': 'gowthamsg07@gmail.com',
+            'name': 'Gowtham S',
+            'email': 'gowthamsg07@gmail.com',
         },
         'arya': {
-        	'name': 'Arya Saumitra',
-        	'email': 'aryasaumitra@gmail.com',
+            'name': 'Arya Saumitra',
+            'email': 'aryasaumitra@gmail.com',
         },
         'immanuel': {
-        	'name': 'Immanuel Savio',
-        	'email': 'immanuelsavio@gmail.com',
-        	'facebook_link': 'https://www.facebook.com/immanuel.donbosco',
-        	'github_link': 'https://github.com/immanuelsavio'
+            'name': 'Immanuel Savio',
+            'email': 'immanuelsavio@gmail.com',
+            'facebook_link': 'https://www.facebook.com/immanuel.donbosco',
+            'github_link': 'https://github.com/immanuelsavio'
         },
-        'tarun' : {
-        	'name': 'Tarun Dugar'
+        'tarun': {
+            'name': 'Tarun Dugar'
         },
         'chandni': {
-        	'name': 'Chandni Agarwal'
+            'name': 'Chandni Agarwal'
         },
         'ritwik': {
-        	'name': 'Ritwik Singh'
+            'name': 'Ritwik Singh'
         }
     };
     var showMoreMemberInfo = (name) => {
 
-    	$('#modal-member-image').attr("src","img/members/" + name + ".jpg");
-    	$('#modal-member-name').html(memberInfo[name]['name']);
+        $('#modal-member-image').attr("src", "img/members/" + name + ".jpg");
+        $('#modal-member-name').html(memberInfo[name]['name']);
 
-    	if(memberInfo[name]){
+        if (memberInfo[name]) {
 
-    		var email = '<a href="mailto:'+memberInfo[name]['email']+'" target="_blank"><i class="fa fa-envelope"></i></a>';
-    		var facebook = '<a href="'+memberInfo[name]['facebook_link']+'" target="_blank"><i class="fa fa-facebook"></i></a>';
-    		var twitter = '<a href="'+memberInfo[name]['twitter_link']+'" target="_blank"><i class="fa fa-twitter"></i></a>';
-    		var github ='<a href="'+memberInfo[name]['github_link']+'" target="_blank"><i class="fa fa-github"></i></a>';
-    		var website = '( <a class="" href="'+memberInfo[name]['website_link']+'" target="_blank">'+memberInfo[name]['website_name']+'</a> )';
+            var email = '<a href="mailto:' + memberInfo[name]['email'] + '" target="_blank"><i class="fa fa-envelope"></i></a>';
+            var facebook = '<a href="' + memberInfo[name]['facebook_link'] + '" target="_blank"><i class="fa fa-facebook"></i></a>';
+            var twitter = '<a href="' + memberInfo[name]['twitter_link'] + '" target="_blank"><i class="fa fa-twitter"></i></a>';
+            var github = '<a href="' + memberInfo[name]['github_link'] + '" target="_blank"><i class="fa fa-github"></i></a>';
+            var website = '( <a class="" href="' + memberInfo[name]['website_link'] + '" target="_blank">' + memberInfo[name]['website_name'] + '</a> )';
 
-    		if(memberInfo[name]['email']){
-    			$('#modal-member-email').html(email);
-    			$('#modal-member-email').show();
-    		}else{
-    			$('#modal-member-email').hide();
-    		}
+            if (memberInfo[name]['email']) {
+                $('#modal-member-email').html(email);
+                $('#modal-member-email').show();
+            } else {
+                $('#modal-member-email').hide();
+            }
 
-    		if(memberInfo[name]['github_link']){
-    			$('#modal-member-github').html(github);
-    			$('#modal-member-github').show();
-    		}else{
-    			$('#modal-member-github').hide();
-    		}
+            if (memberInfo[name]['github_link']) {
+                $('#modal-member-github').html(github);
+                $('#modal-member-github').show();
+            } else {
+                $('#modal-member-github').hide();
+            }
 
-    		if(memberInfo[name]['facebook_link']){
-    			$('#modal-member-facebook').html(facebook);
-    			$('#modal-member-facebook').show();
-    		}else{
-    			$('#modal-member-facebook').hide();
-    		}
+            if (memberInfo[name]['facebook_link']) {
+                $('#modal-member-facebook').html(facebook);
+                $('#modal-member-facebook').show();
+            } else {
+                $('#modal-member-facebook').hide();
+            }
 
-    		if(memberInfo[name]['twitter_link']){
-    			$('#modal-member-twitter').html(twitter);
-    			$('#modal-member-twitter').show();
-    		}else{
-    			$('#modal-member-twitter').hide();
-    		}
+            if (memberInfo[name]['twitter_link']) {
+                $('#modal-member-twitter').html(twitter);
+                $('#modal-member-twitter').show();
+            } else {
+                $('#modal-member-twitter').hide();
+            }
 
-    		if(memberInfo[name]['website_link']){
-    			$('#modal-member-website').html(website);
-    			$('#modal-member-website').show();
-    		}else{
-    			$('#modal-member-website').hide();
-    		}
+            if (memberInfo[name]['website_link']) {
+                $('#modal-member-website').html(website);
+                $('#modal-member-website').show();
+            } else {
+                $('#modal-member-website').hide();
+            }
 
-    	}
+        }
 
-    	$('#memberModal').modal('toggle');
+        $('#memberModal').modal('toggle');
     }
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126022179-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-126022179-1');
     </script>
 </body>
 
