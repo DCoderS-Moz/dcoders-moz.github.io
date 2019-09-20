@@ -1,0 +1,123 @@
+Question 1: Write a program to print "Hello World" without using semicolon(;).
+
+Ans : if(printf("Hello World")){}
+
+Question 2: What is the output of the program given below:
+	    
+	int main()
+	{
+		int x=3;
+		printf("%d",x++ + ++x);
+		return 0;
+	}
+
+	(A)3
+	(B)5
+	(C)6
+	(D)undefined
+
+Ans : D
+
+
+Question 3: Till the array elements not given any specific value, they are supposed to contain _______.
+
+	(A)Garbage value
+	(B)Zero
+	(C)One
+	(D)None of the above
+
+Ans : A
+
+Question 4: What if Kiteretsu assign a value to an array element whose index value exceeds the size of array?
+
+	(A)No Output
+	(B)The program will error
+	(C)The Program will crash
+	(D)None of these
+
+Ans : C
+
+Question 5: Doraemon wants to store a list of binary data. Which of the following data type should he use?
+
+	(A)int
+	(B)boolean
+	(C)char
+	(D)float
+
+Ans : B
+
+Question 6: Help Goku to print the output of the following program:
+
+	void main()
+	{
+		int a=5;
+		for(int i=0;i<a;i++);
+		if(True)
+		{
+			printf("hello");
+		}
+	}
+	
+	(A)hello hello hello hello
+	(B)hello
+	(C)Syntax error
+	(D)hello hello hello hello hello
+
+Ans : B
+
+Question 7: The following code for(;;) represents the infinite loop. It can be terminated by
+	
+	(A)break;
+	(B)exit(0);
+	(C)abort()
+	(D)All of the above
+
+Ans : A
+
+Question 8: Which of the following cannot be a variable name in C
+	
+	(A)true
+	(B)volatile
+	(C)friend
+	(D)export
+
+Ans : B
+
+Question 9: What is the output of the following code:
+	
+	int main()
+	{
+		printf("%d", 11/5);
+	}
+
+	(A)2
+	(B)2.2
+	(C)3
+	(D)error
+
+Ans : C
+
+Question 10: 0 is use to denote True or False in C?
+
+	(A)True
+	(B)False
+
+Ans : B
+
+Question 11: what punctuation is use to show the start and end of the block
+
+	(A)()
+	(B){}
+	(C)[]
+	(D)""
+
+Ans : C
+
+Question 12: What is the default return type of the main function?
+
+	(A)int
+	(B)void
+	(C)char
+	(D)none of the above
+
+Ans : A

@@ -1,0 +1,117 @@
+1->
+void fn()
+{
+	 static int i = 10;
+	 printf("%d ", ++i);
+}
+
+int main()
+{
+  	fn();
+  	fn();
+}
+
+A) 10 10
+B) 11 11
+C) 11 12
+D) 12 12
+
+Ans : C
+
+
+
+2->
+int main ()
+{
+	int a[4] = { 25, 16 };
+	printf ("%d %d", a[0] & a[1], a[1] | a[3]);
+}
+
+A) Syntax error because of invalid operator symbol
+B) 16 25
+C) 25 0
+D) 16 16
+E) Syntax error because of invalid array initialisation
+
+Ans : D
+
+
+
+3->
+int main()  
+{
+	printf("%d%d%d", sizeof(3.14f), sizeof(3.14l));
+}
+
+A) 4160
+B) 844
+C) 3284
+D) Error
+
+Ans : A
+
+
+ 
+4->
+int main()
+
+
+{
+
+ 
+	int x[10] ={1,2,3,4,5} ;
+
+ 	printf("%d %d %d", x[2], 2[x],x[5]);
+
+
+}
+
+Give output or explain if error:
+
+Ans : 3 3 0
+
+
+
+5->
+int N = 10; 
+int main() 
+
+{ 
+ 
+	static int x = 1;
+
+	if (printf("%d ",x) && x++ < N && main())
+	{
+ 		return 1;
+	}
+	return 0;
+
+}
+Give output or explain if error:
+
+Ans : 1 2 3 4 5 6 7 8 9 10
+
+
+
+
+------------------------------Bonus Question------------------------
+
+6->
+int main()
+{
+	static int i;
+	for(i++;++i;i++)
+	{
+		printf("%d ", i);
+		if(i == 6) 
+		break;
+	}
+	return 0;
+}
+
+A. 2 4
+B. No output
+C. 2 4 6
+D. Program never ends
+
+Ans : C
