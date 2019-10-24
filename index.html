@@ -81,7 +81,7 @@
     <script>
         document.onreadystatechange = function () {
                 var state = document.readyState
-                if (state == 'loading') {
+                if (state == 'interactive') {
                     document.getElementById('contents').style.visibility = "hidden";
                     document.getElementById('contents').style.display = "none";
                 } else if (state == 'complete') {
@@ -106,7 +106,7 @@
         </div>
     </div>
 
-    <div id="contents">
+    <div id="contents" style="display: 'none';">
         <!-- COVER -->
         <div class="jumbotron">
             <div class="container" style="text-align: center;">
