@@ -22,6 +22,11 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            transition: opacity 0.4s ease;      
+        }
+        .finish {
+            opacity: 0;
+            pointer-events: none;
         }
         .loading{            
             height: 40px;
@@ -78,20 +83,6 @@
 </head>
 
 <body>
-    <script>
-        document.onreadystatechange = function () {
-                var state = document.readyState
-                if (state == 'interactive') {
-                    document.getElementById('contents').style.visibility = "hidden";
-                    document.getElementById('contents').style.display = "none";
-                } else if (state == 'complete') {
-                    document.getElementsByClassName('main')[0].style.visibility = "hidden";
-                    document.getElementsByClassName('main')[0].style.display = "none";
-                    document.getElementById('contents').style.visibility = "visible";
-                    document.getElementById('contents').style.display = "block";
-                }
-            }
-    </script>
     <!-- LOADING ANIMATION -->
     <div class="main">
         <div class="loading">
@@ -106,7 +97,7 @@
         </div>
     </div>
 
-    <div id="contents" style="display: nones;">
+    <div id="contents" style="display: none;">
         <!-- COVER -->
         <div class="jumbotron">
             <div class="container" style="text-align: center;">
@@ -500,6 +491,13 @@
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script>
+        window.addEventListener('load', (event) => {
+            document.getElementsByClassName('main')[0].classList.add("finish");            
+            document.getElementById('contents').style.display = "block";
+            setTimeout(() => {                
+                document.getElementsByClassName('main')[0].style.display = "none";
+            },600);
+        });
         var pageScroll = (id) => {
             $('html, body').animate({ scrollTop: $("#" + id).offset().top - 100 }, 1000);
         }

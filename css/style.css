@@ -3,329 +3,314 @@
  * Author: Rishav Anand, Arnab Biswas;
  */
 
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
-@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
 @font-face {
-    font-family: Berton-Roman-trial;
-    src: url(../fonts/Berton-Roman-trial.ttf);
+  font-family: Berton-Roman-trial;
+  src: url(../fonts/Berton-Roman-trial.ttf);
 }
 
+@font-face {
+  font-family: Ubuntu;
+  src: url(../fonts/Ubuntu-Regular.ttf);
+}
 
+@font-face {
+  font-family: Amatic SC;
+  src: url(../fonts/AmaticSC-Bold.ttf);
+}
 
 /* BODY */
 
 body {
-    font-family: 'Ubuntu', sans-serif;
-    color: #222;
-    margin: 0;
-    -webkit-overflow-scrolling: touch;
-    overflow-y: scroll;
+  font-family: "Ubuntu", sans-serif;
+  color: #222;
+  margin: 0;
+  -webkit-overflow-scrolling: touch;
+  overflow-y: scroll;
 }
 
 .title {
-    font-weight: bold;
-    font-size: 15px;
-    padding-bottom: 30px;
+  font-weight: bold;
+  font-size: 15px;
+  padding-bottom: 30px;
 }
 
 u {
-    text-decoration: none;
-    border-bottom: 2px solid #e74c3c;
+  text-decoration: none;
+  border-bottom: 2px solid #e74c3c;
 }
-
-
 
 /* HEADER SECTION START */
 
 .bg-dark {
-    background-color: black!important;
+  background-color: black !important;
 }
 
 .jumbotron {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    height: 50vh;
-    border-radius: 0;
-    color: white;
-    text-align: center;
-    background: url('../img/collage.png');
-    background-size: cover;
-    margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 50vh;
+  border-radius: 0;
+  color: white;
+  text-align: center;
+  background: url("../img/collage.png");
+  background-size: cover;
+  margin-bottom: 0;
 }
 
 .jumbotron h1 {
-    font-family: 'Amatic SC', cursive;
+  font-family: "Amatic SC", cursive;
 }
 
 .jumbotron a {
-    color: white;
+  color: white;
 }
 
 .jumbotron img {
-    height: 200px;
+  height: 200px;
 }
-
-
 
 /* NAV SECTION */
 
 nav {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .nav-link {
-    cursor: default;
+  cursor: default;
 }
 
 .nav-center {
-    text-align: center;
+  text-align: center;
 }
 
 .nav-list {
-    margin: auto;
+  margin: auto;
 }
 
-.navbar-collapse{
-    text-align: center;
+.navbar-collapse {
+  text-align: center;
 }
 
-.navbar-toggler{
-    width: 100%;
+.navbar-toggler {
+  width: 100%;
 }
 
-.navbar-dark .navbar-toggler{
-    border: 0!important;
+.navbar-dark .navbar-toggler {
+  border: 0 !important;
 }
-
-
 
 /* ABOUT SECTION */
 
 ​.about {
-    padding-top: 50px;
+  padding-top: 50px;
 }
-
-
 
 /* WORKSHOP SECTION */
 
 .workshop-title {
-    background-color: white;
+  background-color: white;
 }
 
 .card-body {
-    height: 100%;
+  height: 100%;
 }
 
 .card {
-    text-align: center;
+  text-align: center;
 }
 
 .card-img {
-    margin-top: 10px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: auto;
-    height: 100px;
-    margin-bottom: 20px;
+  margin-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height: 100px;
+  margin-bottom: 20px;
 }
 
 .card-title {
-    padding-bottom: 0;
-    margin-bottom: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 #workshops {
-    background-color: WhiteSmoke;
-    padding-top: 40px;
-    padding-bottom: 20px;
-    overflow-x: hidden;
-    margin-top: 20px;
+  background-color: WhiteSmoke;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  overflow-x: hidden;
+  margin-top: 20px;
 }
 
 .workshop {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
 }
-
-
-
 
 /* TIMELINE SECTION */
 
 #timeline {
-    padding-top: 40px;
-    padding-bottom: 20px;
+  padding-top: 40px;
+  padding-bottom: 20px;
 }
 
-.timeline{
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
+.timeline {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
 }
-
-
 
 /* QUOTE SECTION */
 
 .quote {
-    color: white;
-    font-family: 'Berton-Roman-trial';
+  color: white;
+  font-family: "Berton-Roman-trial";
 }
 
 .jumbotron2 {
-    border-radius: 0;
-    color: white;
-    text-align: center;
-    background-color: black;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-color: black;
-    background-size: cover;
-    box-shadow: inset 0px 21px 20px -10px black,
-    inset 0px -21px 20px -10px black;
+  border-radius: 0;
+  color: white;
+  text-align: center;
+  background-color: black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: black;
+  background-size: cover;
+  box-shadow: inset 0px 21px 20px -10px black, inset 0px -21px 20px -10px black;
 }
-
-
 
 /* TEAM SECTION */
 
 #team {
-    padding-top: 40px;
-    padding-bottom: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .member-image {
-    border-radius: 50%;
-    width: 70px;
-    margin-bottom: 10px;
-    text-align: center;
+  border-radius: 50%;
+  width: 70px;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 .center-name {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.member-name:hover{
-    cursor: pointer;
-    color: grey;
+.member-name:hover {
+  cursor: pointer;
+  color: grey;
 }
 
 .member-name {
-    font-weight: bold;
-    font-size: 13px;
+  font-weight: bold;
+  font-size: 13px;
 }
 
 @media screen and (max-width: 641px) {
-
-    .member-image {
-        width: 50px;
-    }
+  .member-image {
+    width: 50px;
+  }
 }
 
 @media screen and (max-width: 995px) and (min-width: 768px) {
-
-    .member-name {
-        padding-left: 20px;
-    }
+  .member-name {
+    padding-left: 20px;
+  }
 }
 
 .mentor-image {
-    width: 60%;
-    border-radius: 50%;
-    margin-bottom: 10px;
+  width: 60%;
+  border-radius: 50%;
+  margin-bottom: 10px;
 }
 
 .member-image:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .mentor-comment {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
 }
 
-.modal-body{
-    text-align: center;
+.modal-body {
+  text-align: center;
 }
 
-.modal-body h5{
-    margin: 0;
+.modal-body h5 {
+  margin: 0;
 }
 
-.fa{
-    padding-left: 5px;
+.fa {
+  padding-left: 5px;
 }
 
-.member-social-links a{
-    color: black;
+.member-social-links a {
+  color: black;
 }
-
-
 
 /* CONTACT SECTION */
 
 #contact {
-    background-color: WhiteSmoke;
-    padding-top: 40px;
-    padding-bottom: 50px;
-    overflow-x: hidden;
+  background-color: WhiteSmoke;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  overflow-x: hidden;
 }
 
 .contact-form {
-    width: 50%;
-    overflow-x: hidden;
+  width: 50%;
+  overflow-x: hidden;
 }
 
 .contact-form input {
-    height: 60px;
-    background-color: #dfe6e9;
+  height: 60px;
+  background-color: #dfe6e9;
 }
 
 .contact-form textarea {
-    height: 120px;
-    background-color: #dfe6e9;
+  height: 120px;
+  background-color: #dfe6e9;
 }
 
 .contact-form button {
-    width: 100%;
-    height: 60px;
+  width: 100%;
+  height: 60px;
 }
 
 @media screen and (max-width: 990px) {
-
-    .contact-form {
-        width: 100%;
-    }
+  .contact-form {
+    width: 100%;
+  }
 }
-
-
 
 /* FOOTER SECTION */
 
 .footer {
-    background-color: black;
-    color: white;
-    overflow-x: hidden;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-align: center;
+  background-color: black;
+  color: white;
+  overflow-x: hidden;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
 }
 
 .fa-heart {
-    color: red;
+  color: red;
 }
 
 .social {
-    color: white;
+  color: white;
 }
