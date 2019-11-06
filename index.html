@@ -491,15 +491,12 @@
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script>
-        document.addEventListener('readystatechange', event => {
-                if (event.target.readyState === "complete") {
-                    document.getElementsByClassName('main')[0].classList.add("finish");
-                    document.getElementById('contents').style.display = "block";
-                    setTimeout(() => {
-                        document.getElementsByClassName('main')[0].style.display = "none";
-                    }, 600);
-                }
-
+        window.addEventListener('load', event => {                
+                document.getElementsByClassName('main')[0].classList.add("finish");
+                document.getElementById('contents').style.display = "block";
+                setTimeout(() => {
+                    document.getElementsByClassName('main')[0].style.display = "none";
+                }, 1000);                
             });
         var pageScroll = (id) => {
             $('html, body').animate({ scrollTop: $("#" + id).offset().top - 100 }, 1000);
