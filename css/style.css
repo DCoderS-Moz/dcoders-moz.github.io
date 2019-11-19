@@ -46,6 +46,7 @@ u {
 
 .jumbotron {
   display: flex;
+  background-color: #000;
   justify-content: center;
   flex-direction: column;
   text-align: center;
