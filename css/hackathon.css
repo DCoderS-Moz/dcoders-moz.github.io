@@ -11,12 +11,14 @@
 * {
   margin: 0;
   padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body,
 html {
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
 }
 
 body {
@@ -122,7 +124,8 @@ body #stars3:after {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 100%;
+  height: 100vh;
+  width: 100vw;
 }
 
 .main .dLogo {
@@ -189,145 +192,145 @@ body #stars3:after {
 
 @-webkit-keyframes glitch-before {
   0% {
-    clip: rect(130px, 850px, 6px, 30px);
+    clip: rect(7px, 850px, 112px, 30px);
   }
   10% {
-    clip: rect(126px, 850px, 49px, 30px);
+    clip: rect(61px, 850px, 100px, 30px);
   }
   20% {
-    clip: rect(37px, 850px, 141px, 30px);
+    clip: rect(119px, 850px, 53px, 30px);
   }
   30% {
-    clip: rect(67px, 850px, 34px, 30px);
+    clip: rect(113px, 850px, 81px, 30px);
   }
   40% {
-    clip: rect(30px, 850px, 39px, 30px);
+    clip: rect(46px, 850px, 17px, 30px);
   }
   50% {
-    clip: rect(56px, 850px, 107px, 30px);
+    clip: rect(144px, 850px, 42px, 30px);
   }
   60% {
-    clip: rect(94px, 850px, 91px, 30px);
+    clip: rect(149px, 850px, 84px, 30px);
   }
   70% {
-    clip: rect(6px, 850px, 7px, 30px);
+    clip: rect(26px, 850px, 36px, 30px);
   }
   80% {
-    clip: rect(70px, 850px, 23px, 30px);
+    clip: rect(51px, 850px, 8px, 30px);
   }
   90% {
-    clip: rect(98px, 850px, 127px, 30px);
+    clip: rect(16px, 850px, 79px, 30px);
   }
   100% {
-    clip: rect(122px, 850px, 124px, 30px);
+    clip: rect(17px, 850px, 27px, 30px);
   }
 }
 
 @keyframes glitch-before {
   0% {
-    clip: rect(130px, 850px, 6px, 30px);
+    clip: rect(7px, 850px, 112px, 30px);
   }
   10% {
-    clip: rect(126px, 850px, 49px, 30px);
+    clip: rect(61px, 850px, 100px, 30px);
   }
   20% {
-    clip: rect(37px, 850px, 141px, 30px);
+    clip: rect(119px, 850px, 53px, 30px);
   }
   30% {
-    clip: rect(67px, 850px, 34px, 30px);
+    clip: rect(113px, 850px, 81px, 30px);
   }
   40% {
-    clip: rect(30px, 850px, 39px, 30px);
+    clip: rect(46px, 850px, 17px, 30px);
   }
   50% {
-    clip: rect(56px, 850px, 107px, 30px);
+    clip: rect(144px, 850px, 42px, 30px);
   }
   60% {
-    clip: rect(94px, 850px, 91px, 30px);
+    clip: rect(149px, 850px, 84px, 30px);
   }
   70% {
-    clip: rect(6px, 850px, 7px, 30px);
+    clip: rect(26px, 850px, 36px, 30px);
   }
   80% {
-    clip: rect(70px, 850px, 23px, 30px);
+    clip: rect(51px, 850px, 8px, 30px);
   }
   90% {
-    clip: rect(98px, 850px, 127px, 30px);
+    clip: rect(16px, 850px, 79px, 30px);
   }
   100% {
-    clip: rect(122px, 850px, 124px, 30px);
+    clip: rect(17px, 850px, 27px, 30px);
   }
 }
 
 @-webkit-keyframes glitch-after {
   0% {
-    clip: rect(42px, 850px, 126px, 30px);
+    clip: rect(26px, 850px, 113px, 30px);
   }
   10% {
-    clip: rect(62px, 850px, 146px, 30px);
+    clip: rect(51px, 850px, 40px, 30px);
   }
   20% {
-    clip: rect(52px, 850px, 18px, 30px);
+    clip: rect(136px, 850px, 24px, 30px);
   }
   30% {
-    clip: rect(135px, 850px, 103px, 30px);
+    clip: rect(136px, 850px, 107px, 30px);
   }
   40% {
-    clip: rect(43px, 850px, 76px, 30px);
+    clip: rect(83px, 850px, 31px, 30px);
   }
   50% {
-    clip: rect(56px, 850px, 90px, 30px);
+    clip: rect(26px, 850px, 71px, 30px);
   }
   60% {
-    clip: rect(47px, 850px, 143px, 30px);
+    clip: rect(104px, 850px, 84px, 30px);
   }
   70% {
-    clip: rect(122px, 850px, 139px, 30px);
+    clip: rect(76px, 850px, 41px, 30px);
   }
   80% {
-    clip: rect(148px, 850px, 19px, 30px);
+    clip: rect(58px, 850px, 112px, 30px);
   }
   90% {
-    clip: rect(40px, 850px, 36px, 30px);
+    clip: rect(135px, 850px, 17px, 30px);
   }
   100% {
-    clip: rect(62px, 850px, 141px, 30px);
+    clip: rect(97px, 850px, 42px, 30px);
   }
 }
 
 @keyframes glitch-after {
   0% {
-    clip: rect(42px, 850px, 126px, 30px);
+    clip: rect(26px, 850px, 113px, 30px);
   }
   10% {
-    clip: rect(62px, 850px, 146px, 30px);
+    clip: rect(51px, 850px, 40px, 30px);
   }
   20% {
-    clip: rect(52px, 850px, 18px, 30px);
+    clip: rect(136px, 850px, 24px, 30px);
   }
   30% {
-    clip: rect(135px, 850px, 103px, 30px);
+    clip: rect(136px, 850px, 107px, 30px);
   }
   40% {
-    clip: rect(43px, 850px, 76px, 30px);
+    clip: rect(83px, 850px, 31px, 30px);
   }
   50% {
-    clip: rect(56px, 850px, 90px, 30px);
+    clip: rect(26px, 850px, 71px, 30px);
   }
   60% {
-    clip: rect(47px, 850px, 143px, 30px);
+    clip: rect(104px, 850px, 84px, 30px);
   }
   70% {
-    clip: rect(122px, 850px, 139px, 30px);
+    clip: rect(76px, 850px, 41px, 30px);
   }
   80% {
-    clip: rect(148px, 850px, 19px, 30px);
+    clip: rect(58px, 850px, 112px, 30px);
   }
   90% {
-    clip: rect(40px, 850px, 36px, 30px);
+    clip: rect(135px, 850px, 17px, 30px);
   }
   100% {
-    clip: rect(62px, 850px, 141px, 30px);
+    clip: rect(97px, 850px, 42px, 30px);
   }
 }
 
@@ -368,6 +371,7 @@ body #stars3:after {
 }
 
 .about div h1 {
+  margin-top: -10vh;
   font-size: 4rem;
   padding: 20px;
 }
@@ -376,10 +380,12 @@ body #stars3:after {
   color: #00f7ff;
   font-size: 1.5rem;
   padding: 20px 10px;
+  margin: 30px 0;
 }
 
 .about div p {
   width: 800px;
+  font-size: 1.2rem;
 }
 
 .about div .swags {
@@ -392,10 +398,241 @@ body #stars3:after {
           flex-direction: row;
   height: 20%;
   padding: 20px;
+  margin: 30px 0 50px;
 }
 
 .about div .swags .container img {
   width: 100px;
   height: 100px;
+}
+
+.about div .swags .container p {
+  width: 100px;
+  padding: 10px;
+}
+
+.timeline {
+  padding: 20px;
+}
+
+.timeline #timelineHeading {
+  color: #fff;
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 5vh;
+}
+
+.timeline header:after, .timeline #timeline .timeline-item:after, .timeline header:before, .timeline #timeline .timeline-item:before {
+  content: "";
+  display: block;
+  width: 100%;
+  clear: both;
+}
+
+.timeline img {
+  max-width: 100%;
+}
+
+.timeline a {
+  text-decoration: none;
+}
+
+.timeline .container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.timeline h1,
+.timeline h2,
+.timeline h3,
+.timeline h4 {
+  font-family: "VCR_OSD_MONO", sans-serif, arial, tahoma, verdana;
+  font-weight: 500;
+}
+
+.timeline .project-name {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.timeline header {
+  background: #2b2e48;
+  padding: 10px;
+  -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.05);
+  -ms-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.05);
+}
+
+.timeline header .logo {
+  color: #ee4d4d;
+  float: left;
+  font-family: "VCR_OSD_MONO", sans-serif, arial, tahoma, verdana;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.timeline header .logo > span {
+  color: #f7aaaa;
+  font-weight: 300;
+}
+
+.timeline header .social {
+  float: right;
+}
+
+.timeline header .social .btn {
+  font-family: "Dosis";
+  font-size: 14px;
+  margin: 10px 5px;
+}
+
+.timeline #timeline {
+  width: 100%;
+  margin: 30px auto;
+  position: relative;
+  padding: 0 10px;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.timeline #timeline:before {
+  content: "";
+  width: 3px;
+  height: 100%;
+  background: #ee4d4d;
+  left: 50%;
+  top: 0;
+  position: absolute;
+}
+
+.timeline #timeline:after {
+  content: "";
+  clear: both;
+  display: table;
+  width: 100%;
+}
+
+.timeline #timeline .timeline-item {
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.timeline #timeline .timeline-item .timeline-icon {
+  background: #ee4d4d;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  overflow: hidden;
+  margin-left: -23px;
+  border-radius: 50%;
+}
+
+.timeline #timeline .timeline-item .timeline-icon svg {
+  position: relative;
+  top: 14px;
+  left: 14px;
+}
+
+.timeline #timeline .timeline-item .timeline-content {
+  width: 45%;
+  background: #fff;
+  padding: 20px;
+  -webkit-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.timeline #timeline .timeline-item .timeline-content h2 {
+  padding: 15px;
+  background: #ee4d4d;
+  color: #fff;
+  margin: -20px -20px 0 -20px;
+  font-weight: 300;
+  border-radius: 3px 3px 0 0;
+}
+
+.timeline #timeline .timeline-item .timeline-content:before {
+  content: "";
+  position: absolute;
+  left: 45%;
+  top: 20px;
+  width: 0;
+  height: 0;
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  border-left: 7px solid #ee4d4d;
+}
+
+.timeline #timeline .timeline-item .timeline-content.right {
+  float: right;
+}
+
+.timeline #timeline .timeline-item .timeline-content.right:before {
+  content: "";
+  right: 45%;
+  left: inherit;
+  border-left: 0;
+  border-right: 7px solid #ee4d4d;
+}
+
+.timeline #timeline .timeline-item .timeline-content p {
+  padding: 10px;
+}
+
+.timeline .btn {
+  padding: 5px 15px;
+  text-decoration: none;
+  background: transparent;
+  border: 2px solid #f27c7c;
+  color: #f27c7c;
+  display: inline-block;
+  position: relative;
+  text-transform: uppercase;
+  font-size: 12px;
+  border-radius: 5px;
+  -webkit-transition: background 0.3s ease;
+  transition: background 0.3s ease;
+  -webkit-box-shadow: 2px 2px 0 #f27c7c;
+  -ms-box-shadow: 2px 2px 0 #f27c7c;
+  box-shadow: 2px 2px 0 #f27c7c;
+}
+
+.timeline .btn:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  top: 2px;
+  left: 2px;
+  -webkit-box-shadow: 2px 2px 0 transparent;
+  -ms-box-shadow: 2px 2px 0 transparent;
+  box-shadow: 2px 2px 0 transparent;
+}
+
+@media screen and (max-width: 768px) {
+  .timeline #timeline {
+    margin: 30px;
+    padding: 0px;
+    width: 90%;
+  }
+  .timeline #timeline:before {
+    left: 0;
+  }
+  .timeline #timeline .timeline-item .timeline-content {
+    width: 90%;
+    float: right;
+  }
+  .timeline #timeline .timeline-item .timeline-content:before, .timeline #timeline .timeline-item .timeline-content.right:before {
+    left: 10%;
+    margin-left: -6px;
+    border-left: 0;
+    border-right: 7px solid #ee4d4d;
+  }
+  .timeline #timeline .timeline-item .timeline-icon {
+    left: 0;
+  }
 }
 /*# sourceMappingURL=hackathon.css.map */
