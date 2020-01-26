@@ -1,0 +1,288 @@
+@font-face {
+  font-family: VCR_OSD_MONO;
+  src: url(../fonts/VCR_OSD_MONO_1.001.ttf);
+}
+
+@font-face {
+  font-family: Ubuntu;
+  src: url(../fonts/Ubuntu-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: #000;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.main .dLogo {
+  margin-top: -10vh;
+  width: 150px;
+  height: 150px;
+}
+
+.main .presents {
+  color: #fff;
+  font-family: "VCR_OSD_MONO", sans-serif;
+}
+
+.main .glitch {
+  color: #fff;
+  font-family: "VCR_OSD_MONO", sans-serif;
+  font-weight: 600;
+  font-size: 100px;
+  position: relative;
+  padding: 30px;
+}
+
+.main .glitch:before, .main .glitch:after {
+  content: "Hackathon 1.0";
+  color: #fff;
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+  padding: 30px;
+}
+
+.main .glitch:before {
+  left: 3px;
+  text-shadow: -3px 0 red;
+  -webkit-animation: glitch-before 2s linear 0s infinite alternate;
+          animation: glitch-before 2s linear 0s infinite alternate;
+}
+
+.main .glitch:after {
+  left: -3px;
+  text-shadow: -3px 0 blue;
+  -webkit-animation: glitch-after 2s linear 0s infinite alternate;
+          animation: glitch-after 2s linear 0s infinite alternate;
+}
+
+.main .arrowDown {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  margin-top: 45vh;
+}
+
+@-webkit-keyframes glitch-before {
+  0% {
+    clip: rect(56px, 850px, 89px, 30px);
+  }
+  10% {
+    clip: rect(84px, 850px, 148px, 30px);
+  }
+  20% {
+    clip: rect(63px, 850px, 50px, 30px);
+  }
+  30% {
+    clip: rect(51px, 850px, 82px, 30px);
+  }
+  40% {
+    clip: rect(81px, 850px, 50px, 30px);
+  }
+  50% {
+    clip: rect(150px, 850px, 85px, 30px);
+  }
+  60% {
+    clip: rect(85px, 850px, 9px, 30px);
+  }
+  70% {
+    clip: rect(28px, 850px, 126px, 30px);
+  }
+  80% {
+    clip: rect(4px, 850px, 30px, 30px);
+  }
+  90% {
+    clip: rect(6px, 850px, 74px, 30px);
+  }
+  100% {
+    clip: rect(100px, 850px, 138px, 30px);
+  }
+}
+
+@keyframes glitch-before {
+  0% {
+    clip: rect(56px, 850px, 89px, 30px);
+  }
+  10% {
+    clip: rect(84px, 850px, 148px, 30px);
+  }
+  20% {
+    clip: rect(63px, 850px, 50px, 30px);
+  }
+  30% {
+    clip: rect(51px, 850px, 82px, 30px);
+  }
+  40% {
+    clip: rect(81px, 850px, 50px, 30px);
+  }
+  50% {
+    clip: rect(150px, 850px, 85px, 30px);
+  }
+  60% {
+    clip: rect(85px, 850px, 9px, 30px);
+  }
+  70% {
+    clip: rect(28px, 850px, 126px, 30px);
+  }
+  80% {
+    clip: rect(4px, 850px, 30px, 30px);
+  }
+  90% {
+    clip: rect(6px, 850px, 74px, 30px);
+  }
+  100% {
+    clip: rect(100px, 850px, 138px, 30px);
+  }
+}
+
+@-webkit-keyframes glitch-after {
+  0% {
+    clip: rect(136px, 850px, 23px, 30px);
+  }
+  10% {
+    clip: rect(84px, 850px, 97px, 30px);
+  }
+  20% {
+    clip: rect(39px, 850px, 39px, 30px);
+  }
+  30% {
+    clip: rect(89px, 850px, 71px, 30px);
+  }
+  40% {
+    clip: rect(35px, 850px, 41px, 30px);
+  }
+  50% {
+    clip: rect(69px, 850px, 46px, 30px);
+  }
+  60% {
+    clip: rect(79px, 850px, 148px, 30px);
+  }
+  70% {
+    clip: rect(76px, 850px, 101px, 30px);
+  }
+  80% {
+    clip: rect(4px, 850px, 26px, 30px);
+  }
+  90% {
+    clip: rect(61px, 850px, 36px, 30px);
+  }
+  100% {
+    clip: rect(80px, 850px, 98px, 30px);
+  }
+}
+
+@keyframes glitch-after {
+  0% {
+    clip: rect(136px, 850px, 23px, 30px);
+  }
+  10% {
+    clip: rect(84px, 850px, 97px, 30px);
+  }
+  20% {
+    clip: rect(39px, 850px, 39px, 30px);
+  }
+  30% {
+    clip: rect(89px, 850px, 71px, 30px);
+  }
+  40% {
+    clip: rect(35px, 850px, 41px, 30px);
+  }
+  50% {
+    clip: rect(69px, 850px, 46px, 30px);
+  }
+  60% {
+    clip: rect(79px, 850px, 148px, 30px);
+  }
+  70% {
+    clip: rect(76px, 850px, 101px, 30px);
+  }
+  80% {
+    clip: rect(4px, 850px, 26px, 30px);
+  }
+  90% {
+    clip: rect(61px, 850px, 36px, 30px);
+  }
+  100% {
+    clip: rect(80px, 850px, 98px, 30px);
+  }
+}
+
+.about {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.about div {
+  width: 80%;
+  height: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "VCR_OSD_MONO", sans-serif;
+}
+
+.about div h1 {
+  font-size: 3.5rem;
+  padding: 20px;
+  margin-top: -30%;
+}
+
+.about div .aboutTitle {
+  color: #00f7ff;
+  font-size: 1.5rem;
+  padding: 20px;
+}
+
+.about div p {
+  width: 800px;
+}
+/*# sourceMappingURL=hackathon.css.map */

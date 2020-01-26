@@ -1,0 +1,122 @@
+@font-face {
+  font-family: VCR_OSD_MONO;
+  src: url(../fonts/VCR_OSD_MONO_1.001.ttf);
+}
+
+@font-face {
+  font-family: Ubuntu;
+  src: url(../fonts/Ubuntu-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  background-color: #000;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  .dLogo {
+    margin-top: -10vh;
+    width: 150px;
+    height: 150px;
+  }
+  .presents {
+    color: #fff;
+    font-family: "VCR_OSD_MONO", sans-serif;
+  }
+  .glitch {
+    color: #fff;
+    font-family: "VCR_OSD_MONO", sans-serif;
+    font-weight: 600;
+    font-size: 100px;
+    position: relative;
+    padding: 30px;
+    &:before,
+    &:after {
+      content: "Hackathon 1.0";
+      color: #fff;
+      position: absolute;
+      top: 0;
+      overflow: hidden;
+      padding: 30px;
+    }
+    &:before {
+      left: 3px;
+      text-shadow: -3px 0 red;
+      animation: glitch-before 2s linear 0s infinite alternate;
+    }
+    &:after {
+      left: -3px;
+      text-shadow: -3px 0 blue;
+      animation: glitch-after 2s linear 0s infinite alternate;
+    }
+  }
+  .arrowDown {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    margin-top: 45vh;
+  }
+}
+
+@keyframes glitch-before {
+  $steps: 10;
+  @for $i from 0 through $steps {
+    #{percentage($i*(1/$steps))} {
+      clip: rect(random(150) + px, 850px, random(150) + px, 30px);
+    }
+  }
+}
+
+@keyframes glitch-after {
+  $steps: 10;
+  @for $i from 0 through $steps {
+    #{percentage($i*(1/$steps))} {
+      clip: rect(random(150) + px, 850px, random(150) + px, 30px);
+    }
+  }
+}
+
+.about {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+  div {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "VCR_OSD_MONO", sans-serif;
+    h1 {
+      font-size: 3.5rem;
+      padding: 20px;
+      margin-top: -30%;
+    }
+    .aboutTitle {
+      color: #00f7ff;
+      font-size: 1.5rem;
+      padding: 20px;
+    }
+    p {
+      width: 800px;
+    }
+  }
+}
