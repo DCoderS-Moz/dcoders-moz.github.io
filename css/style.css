@@ -312,3 +312,10 @@ nav {
 .social {
   color: white;
 }
+
+/* Styles For Hackathon Page */
+.hack-main {
+  width: 100vw;
+  height: 100vh;
+  background-color: #0f1223;
+}
