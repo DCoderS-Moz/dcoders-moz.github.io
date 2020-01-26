@@ -16,7 +16,6 @@
 body,
 html {
   width: 100vw;
-  height: 100vh;
 }
 body {
   background-color: #000;
@@ -221,7 +220,7 @@ body {
   #stars:after {
     content: "";
     position: absolute;
-    top: 2000px;
+    top: 4000px;
     width: 1px;
     height: 1px;
     background: transparent;
@@ -771,6 +770,8 @@ $timeline-color: $primary-color;
     font-size: 4rem;
     text-align: center;
     margin-bottom: 5vh;
+    margin-bottom: 15vh;
+    letter-spacing: -3px;
   }
   %clearfix {
     &:after,
@@ -834,15 +835,6 @@ $timeline-color: $primary-color;
       > span {
         color: lighten($primary-color, 20%);
         font-weight: 300;
-      }
-    }
-
-    .social {
-      float: right;
-      .btn {
-        font-family: "Dosis";
-        font-size: 14px;
-        margin: 10px 5px;
       }
     }
   }
@@ -937,30 +929,9 @@ $timeline-color: $primary-color;
 
         p {
           padding: 10px;
+          font-family: "VCR_OSD_MONO", sans-serif;
         }
       }
-    }
-  }
-
-  .btn {
-    padding: 5px 15px;
-    text-decoration: none;
-    background: transparent;
-    border: 2px solid lighten($primary-color, 10%);
-    color: lighten($primary-color, 10%);
-    display: inline-block;
-    position: relative;
-    text-transform: uppercase;
-    font-size: 12px;
-    @include prefix(border-radius, 5px);
-    @include prefix(transition, background 0.3s ease);
-    @include prefix(box-shadow, 2px 2px 0 lighten($primary-color, 10%));
-
-    &:hover {
-      box-shadow: none;
-      top: 2px;
-      left: 2px;
-      @include prefix(box-shadow, 2px 2px 0 transparent);
     }
   }
 
@@ -991,6 +962,104 @@ $timeline-color: $primary-color;
           left: 0;
         }
       }
+    }
+  }
+}
+
+.faq {
+  width: 100vw;
+  padding: 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .faqTitle {
+    color: #fff;
+    padding: 10px;
+    font-family: "VCR_OSD_MONO", sans-serif;
+    font-size: 4rem;
+    margin-bottom: 5vh;
+  }
+  .faq-grid {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: auto auto;
+    font-family: "VCR_OSD_MONO", sans-serif;
+    grid-gap: 50px 50px;
+    .container {
+      background-color: rgba(255, 255, 255, 0.7);
+      border-radius: 10px;
+      h2 {
+        padding: 20px;
+        color: #000;
+        font-size: 1.7rem;
+      }
+      p {
+        padding: 20px 20px 30px;
+        color: #000;
+      }
+    }
+  }
+}
+
+.team {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-size: 4rem;
+  color: #fff;
+  font-family: "VCR_OSD_MONO", sans-serif;
+  .row1,
+  .row2,
+  .row3 {
+    margin-top: 40px;
+    display: flex;
+    div {
+      width: 200px;
+      height: 200px;
+      margin: 20px;
+      img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+        width: 50%;
+        border-radius: 50%;
+        padding: auto;
+      }
+      p {
+        text-align: center;
+        font-size: 1.2rem;
+      }
+    }
+  }
+}
+
+.dcoders {
+  color: #fff;
+  font-family: "VCR_OSD_MONO", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  text-align: center;
+  h1 {
+    font-size: 4rem;
+  }
+  .about-us,
+  .our-aim {
+    margin: 10vh 0;
+    h1 {
+      font-size: 3rem;
+      margin: 5vh 0;
+    }
+    p {
+      width: 500px;
+      font-size: 1.4rem;
     }
   }
 }

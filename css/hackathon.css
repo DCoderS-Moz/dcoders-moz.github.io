@@ -18,7 +18,6 @@
 body,
 html {
   width: 100vw;
-  height: 100vh;
 }
 
 body {
@@ -38,7 +37,7 @@ body #stars {
 body #stars:after {
   content: "";
   position: absolute;
-  top: 2000px;
+  top: 4000px;
   width: 1px;
   height: 1px;
   background: transparent;
@@ -192,145 +191,145 @@ body #stars3:after {
 
 @-webkit-keyframes glitch-before {
   0% {
-    clip: rect(7px, 850px, 112px, 30px);
+    clip: rect(77px, 850px, 104px, 30px);
   }
   10% {
-    clip: rect(61px, 850px, 100px, 30px);
+    clip: rect(110px, 850px, 69px, 30px);
   }
   20% {
-    clip: rect(119px, 850px, 53px, 30px);
+    clip: rect(126px, 850px, 15px, 30px);
   }
   30% {
-    clip: rect(113px, 850px, 81px, 30px);
+    clip: rect(147px, 850px, 121px, 30px);
   }
   40% {
-    clip: rect(46px, 850px, 17px, 30px);
+    clip: rect(141px, 850px, 5px, 30px);
   }
   50% {
-    clip: rect(144px, 850px, 42px, 30px);
+    clip: rect(91px, 850px, 55px, 30px);
   }
   60% {
-    clip: rect(149px, 850px, 84px, 30px);
+    clip: rect(95px, 850px, 121px, 30px);
   }
   70% {
-    clip: rect(26px, 850px, 36px, 30px);
+    clip: rect(92px, 850px, 67px, 30px);
   }
   80% {
-    clip: rect(51px, 850px, 8px, 30px);
+    clip: rect(18px, 850px, 24px, 30px);
   }
   90% {
-    clip: rect(16px, 850px, 79px, 30px);
+    clip: rect(125px, 850px, 39px, 30px);
   }
   100% {
-    clip: rect(17px, 850px, 27px, 30px);
+    clip: rect(74px, 850px, 122px, 30px);
   }
 }
 
 @keyframes glitch-before {
   0% {
-    clip: rect(7px, 850px, 112px, 30px);
+    clip: rect(77px, 850px, 104px, 30px);
   }
   10% {
-    clip: rect(61px, 850px, 100px, 30px);
+    clip: rect(110px, 850px, 69px, 30px);
   }
   20% {
-    clip: rect(119px, 850px, 53px, 30px);
+    clip: rect(126px, 850px, 15px, 30px);
   }
   30% {
-    clip: rect(113px, 850px, 81px, 30px);
+    clip: rect(147px, 850px, 121px, 30px);
   }
   40% {
-    clip: rect(46px, 850px, 17px, 30px);
+    clip: rect(141px, 850px, 5px, 30px);
   }
   50% {
-    clip: rect(144px, 850px, 42px, 30px);
+    clip: rect(91px, 850px, 55px, 30px);
   }
   60% {
-    clip: rect(149px, 850px, 84px, 30px);
+    clip: rect(95px, 850px, 121px, 30px);
   }
   70% {
-    clip: rect(26px, 850px, 36px, 30px);
+    clip: rect(92px, 850px, 67px, 30px);
   }
   80% {
-    clip: rect(51px, 850px, 8px, 30px);
+    clip: rect(18px, 850px, 24px, 30px);
   }
   90% {
-    clip: rect(16px, 850px, 79px, 30px);
+    clip: rect(125px, 850px, 39px, 30px);
   }
   100% {
-    clip: rect(17px, 850px, 27px, 30px);
+    clip: rect(74px, 850px, 122px, 30px);
   }
 }
 
 @-webkit-keyframes glitch-after {
   0% {
-    clip: rect(26px, 850px, 113px, 30px);
+    clip: rect(96px, 850px, 48px, 30px);
   }
   10% {
-    clip: rect(51px, 850px, 40px, 30px);
+    clip: rect(112px, 850px, 116px, 30px);
   }
   20% {
-    clip: rect(136px, 850px, 24px, 30px);
+    clip: rect(131px, 850px, 80px, 30px);
   }
   30% {
-    clip: rect(136px, 850px, 107px, 30px);
+    clip: rect(119px, 850px, 49px, 30px);
   }
   40% {
-    clip: rect(83px, 850px, 31px, 30px);
+    clip: rect(52px, 850px, 77px, 30px);
   }
   50% {
-    clip: rect(26px, 850px, 71px, 30px);
+    clip: rect(114px, 850px, 38px, 30px);
   }
   60% {
-    clip: rect(104px, 850px, 84px, 30px);
+    clip: rect(84px, 850px, 149px, 30px);
   }
   70% {
-    clip: rect(76px, 850px, 41px, 30px);
+    clip: rect(79px, 850px, 141px, 30px);
   }
   80% {
-    clip: rect(58px, 850px, 112px, 30px);
+    clip: rect(120px, 850px, 109px, 30px);
   }
   90% {
-    clip: rect(135px, 850px, 17px, 30px);
+    clip: rect(44px, 850px, 143px, 30px);
   }
   100% {
-    clip: rect(97px, 850px, 42px, 30px);
+    clip: rect(136px, 850px, 128px, 30px);
   }
 }
 
 @keyframes glitch-after {
   0% {
-    clip: rect(26px, 850px, 113px, 30px);
+    clip: rect(96px, 850px, 48px, 30px);
   }
   10% {
-    clip: rect(51px, 850px, 40px, 30px);
+    clip: rect(112px, 850px, 116px, 30px);
   }
   20% {
-    clip: rect(136px, 850px, 24px, 30px);
+    clip: rect(131px, 850px, 80px, 30px);
   }
   30% {
-    clip: rect(136px, 850px, 107px, 30px);
+    clip: rect(119px, 850px, 49px, 30px);
   }
   40% {
-    clip: rect(83px, 850px, 31px, 30px);
+    clip: rect(52px, 850px, 77px, 30px);
   }
   50% {
-    clip: rect(26px, 850px, 71px, 30px);
+    clip: rect(114px, 850px, 38px, 30px);
   }
   60% {
-    clip: rect(104px, 850px, 84px, 30px);
+    clip: rect(84px, 850px, 149px, 30px);
   }
   70% {
-    clip: rect(76px, 850px, 41px, 30px);
+    clip: rect(79px, 850px, 141px, 30px);
   }
   80% {
-    clip: rect(58px, 850px, 112px, 30px);
+    clip: rect(120px, 850px, 109px, 30px);
   }
   90% {
-    clip: rect(135px, 850px, 17px, 30px);
+    clip: rect(44px, 850px, 143px, 30px);
   }
   100% {
-    clip: rect(97px, 850px, 42px, 30px);
+    clip: rect(136px, 850px, 128px, 30px);
   }
 }
 
@@ -420,6 +419,8 @@ body #stars3:after {
   font-size: 4rem;
   text-align: center;
   margin-bottom: 5vh;
+  margin-bottom: 15vh;
+  letter-spacing: -3px;
 }
 
 .timeline header:after, .timeline #timeline .timeline-item:after, .timeline header:before, .timeline #timeline .timeline-item:before {
@@ -474,16 +475,6 @@ body #stars3:after {
 .timeline header .logo > span {
   color: #f7aaaa;
   font-weight: 300;
-}
-
-.timeline header .social {
-  float: right;
-}
-
-.timeline header .social .btn {
-  font-family: "Dosis";
-  font-size: 14px;
-  margin: 10px 5px;
 }
 
 .timeline #timeline {
@@ -582,34 +573,7 @@ body #stars3:after {
 
 .timeline #timeline .timeline-item .timeline-content p {
   padding: 10px;
-}
-
-.timeline .btn {
-  padding: 5px 15px;
-  text-decoration: none;
-  background: transparent;
-  border: 2px solid #f27c7c;
-  color: #f27c7c;
-  display: inline-block;
-  position: relative;
-  text-transform: uppercase;
-  font-size: 12px;
-  border-radius: 5px;
-  -webkit-transition: background 0.3s ease;
-  transition: background 0.3s ease;
-  -webkit-box-shadow: 2px 2px 0 #f27c7c;
-  -ms-box-shadow: 2px 2px 0 #f27c7c;
-  box-shadow: 2px 2px 0 #f27c7c;
-}
-
-.timeline .btn:hover {
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  top: 2px;
-  left: 2px;
-  -webkit-box-shadow: 2px 2px 0 transparent;
-  -ms-box-shadow: 2px 2px 0 transparent;
-  box-shadow: 2px 2px 0 transparent;
+  font-family: "VCR_OSD_MONO", sans-serif;
 }
 
 @media screen and (max-width: 768px) {
@@ -634,5 +598,155 @@ body #stars3:after {
   .timeline #timeline .timeline-item .timeline-icon {
     left: 0;
   }
+}
+
+.faq {
+  width: 100vw;
+  padding: 40px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.faq .faqTitle {
+  color: #fff;
+  padding: 10px;
+  font-family: "VCR_OSD_MONO", sans-serif;
+  font-size: 4rem;
+  margin-bottom: 5vh;
+}
+
+.faq .faq-grid {
+  padding: 30px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  font-family: "VCR_OSD_MONO", sans-serif;
+  grid-gap: 50px 50px;
+}
+
+.faq .faq-grid .container {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+}
+
+.faq .faq-grid .container h2 {
+  padding: 20px;
+  color: #000;
+  font-size: 1.7rem;
+}
+
+.faq .faq-grid .container p {
+  padding: 20px 20px 30px;
+  color: #000;
+}
+
+.team {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+  font-size: 4rem;
+  color: #fff;
+  font-family: "VCR_OSD_MONO", sans-serif;
+}
+
+.team .row1,
+.team .row2,
+.team .row3 {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.team .row1 div,
+.team .row2 div,
+.team .row3 div {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+}
+
+.team .row1 div img,
+.team .row2 div img,
+.team .row3 div img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  width: 50%;
+  border-radius: 50%;
+  padding: auto;
+}
+
+.team .row1 div p,
+.team .row2 div p,
+.team .row3 div p {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.dcoders {
+  color: #fff;
+  font-family: "VCR_OSD_MONO", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px;
+  text-align: center;
+}
+
+.dcoders h1 {
+  font-size: 4rem;
+}
+
+.dcoders .about-us,
+.dcoders .our-aim {
+  margin: 10vh 0;
+}
+
+.dcoders .about-us h1,
+.dcoders .our-aim h1 {
+  font-size: 3rem;
+  margin: 5vh 0;
+}
+
+.dcoders .about-us p,
+.dcoders .our-aim p {
+  width: 500px;
+  font-size: 1.4rem;
 }
 /*# sourceMappingURL=hackathon.css.map */
