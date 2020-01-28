@@ -8,6 +8,176 @@
   src: url(../fonts/Ubuntu-Regular.ttf);
 }
 
+$s: 0.25em;
+$speed: 3.5s;
+$r: #ff1700;
+$g: #836100;
+$y: #f8a12d;
+
+$frame1: (
+  (0, 0, $r, $r, $r, $r, $r),
+  (0, $r, $r, $r, $r, $r, $r, $r, $r, $r),
+  (0, $g, $g, $g, $y, $y, $g, $y),
+  ($g, $y, $g, $y, $y, $y, $g, $y, $y, $y),
+  ($g, $y, $g, $g, $y, $y, $y, $g, $y, $y, $y),
+  ($g, $g, $y, $y, $y, $y, $g, $g, $g, $g),
+  (0, 0, $y, $y, $y, $y, $y, $y, $y),
+  (0, $g, $g, $g, $r, $g, $g),
+  ($g, $g, $g, $g, $r, $r, $g, $g),
+  ($g, $g, $g, $r, $r, $y, $r, $r),
+  ($g, $g, $g, $g, $r, $r, $r, $r),
+  ($r, $g, $g, $y, $y, $r, $r, $r),
+  (0, $r, $g, $y, $y, $r, $r),
+  (0, 0, $r, $r, $r, $g, $g, $g),
+  (0, 0, $g, $g, $g, $g)
+);
+
+$frame2: (
+  (0, 0, 0, $r, $r, $r, $r, $r),
+  (0, 0, $r, $r, $r, $r, $r, $r, $r, $r, $r),
+  (0, 0, $g, $g, $g, $y, $y, $g, $y),
+  (0, $g, $y, $g, $y, $y, $y, $g, $y, $y, $y),
+  (0, $g, $y, $g, $g, $y, $y, $y, $g, $y, $y, $y),
+  (0, $g, $g, $y, $y, $y, $y, $g, $g, $g, $g),
+  (0, 0, 0, $y, $y, $y, $y, $y, $y, $y),
+  (0, 0, 0, 0, $g, $g, $r, $r, $g),
+  (0, 0, 0, $g, $g, $g, $g, $r, $g, $y, $y),
+  (0, $y, $y, $g, $g, $g, $g, $g, $g, $y, $y, $y),
+  ($y, $y, $y, $r, $g, $g, $g, $g, $g, $y, $y),
+  (0, $g, $g, $r, $r, $r, $r, $r, $r, $r),
+  (0, $g, $r, $r, $r, $r, $r, $r, $r, $r),
+  ($g, $g, $r, $g, 0, 0, $r, $r, $r),
+  ($g, 0, 0, 0, 0, $g, $g, $g),
+  (0, 0, 0, 0, 0, 0, $g, $g, $g)
+);
+
+$frame3: $frame1;
+
+$frame4: (
+  (0, 0, 0, 0, 0, $r, $r, $r, $r, $r),
+  (0, 0, 0, 0, $r, $r, $r, $r, $r, $r, $r, $r, $r),
+  (0, 0, 0, 0, $g, $g, $g, $y, $y, $g, $y),
+  (0, 0, 0, $g, $y, $g, $y, $y, $y, $g, $y, $y, $y),
+  (0, 0, 0, $g, $y, $g, $g, $y, $y, $y, $g, $y, $y, $y),
+  (0, 0, 0, $g, $g, $y, $y, $y, $y, $g, $g, $g, $g),
+  (0, 0, 0, 0, 0, $y, $y, $y, $y, $y, $y, $y),
+  (0, 0, $g, $g, $g, $g, $r, $g, $g, $g, $r),
+  ($y, $y, $g, $g, $g, $g, $r, $r, $g, $g, $g, $r, $g, $y, $y, $y),
+  ($y, $y, $y, 0, $g, $g, $r, $r, $r, $r, $r, $r, $g, $g, $y, $y),
+  ($y, $y, 0, 0, $r, $r, $r, $y, $r, $r, $r, $y, 0, 0, $g),
+  (0, 0, 0, $r, $r, $r, $r, $r, $r, $r, $r, $r, $r, $g, $g),
+  (0, 0, $r, $r, $r, $r, $r, $r, $r, $r, $r, $r, $r, $g, $g),
+  (0, $g, $g, $r, $r, $r, 0, 0, 0, 0, $r, $r, $r, $g, $g),
+  (0, $g, $g, $g),
+  (0, 0, $g, $g, $g)
+);
+
+@function draw($p, $dx: 0, $dy: 0) {
+  $y: $dy;
+  $param: ();
+  @each $row in $p {
+    $x: $dx;
+    @each $c in $row {
+      @if $c != 0 {
+        $param: append($param, $x * $s $y * $s 0 0 $c, comma);
+      }
+      $x: $x + 1;
+    }
+    $y: $y + 1;
+  }
+  @return $param;
+}
+
+@keyframes loading {
+  0% {
+    box-shadow: draw($frame1, 4, 1);
+  }
+  5% {
+    box-shadow: draw($frame2, 3, 0);
+  }
+  10% {
+    box-shadow: draw($frame3, 4, 1);
+  }
+  15% {
+    box-shadow: draw($frame4, 0, 0);
+  }
+  20% {
+    box-shadow: draw($frame1, 4, 1);
+  }
+  25% {
+    box-shadow: draw($frame2, 3, 0);
+  }
+  30% {
+    box-shadow: draw($frame3, 4, 1);
+  }
+  35% {
+    box-shadow: draw($frame4, 0, 0);
+  }
+  40% {
+    box-shadow: draw($frame4, 0, -8);
+  }
+  45% {
+    box-shadow: draw($frame4, 0, -16);
+  }
+  50% {
+    box-shadow: draw($frame4, 0, -16);
+  }
+  55% {
+    box-shadow: draw($frame4, 0, -8);
+  }
+  60% {
+    box-shadow: draw($frame1, 4, 1);
+  }
+  65% {
+    box-shadow: draw($frame2, 3, 0);
+  }
+  70% {
+    box-shadow: draw($frame3, 4, 1);
+  }
+  75% {
+    box-shadow: draw($frame4, 0, 0);
+  }
+  80% {
+    box-shadow: draw($frame1, 4, 1);
+  }
+  85% {
+    box-shadow: draw($frame2, 3, 0);
+  }
+  90% {
+    box-shadow: draw($frame3, 4, 1);
+  }
+  95% {
+    box-shadow: draw($frame4, 0, 0);
+  }
+  100% {
+    box-shadow: draw($frame1, 4, 1);
+  }
+}
+
+.loading {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+
+  &::before {
+    content: " ";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: $s;
+    height: $s;
+    transform: translate(-10 * $s, -8 * $s);
+    box-shadow: draw($frame1, 4, 1);
+    background-color: transparent;
+    animation: loading $speed steps(1, end) infinite;
+  }
+}
+.content {
+  opacity: 0;
+  display: none;
+  transition: opacity 2s ease-in;
+}
+
 * {
   margin: 0;
   padding: 0;
