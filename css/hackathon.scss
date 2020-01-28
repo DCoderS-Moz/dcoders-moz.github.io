@@ -186,6 +186,7 @@ $frame4: (
 body,
 html {
   width: 100%;
+  scroll-behavior: smooth;
 }
 body {
   background-color: #000;
@@ -1477,7 +1478,10 @@ $timeline-color: $primary-color;
   }
   h3 {
     font-size: 2rem;
-    color: #74ee15;
+    a {
+      color: #74ee15;
+      text-decoration: none;
+    }
   }
   div {
     display: flex;
