@@ -835,7 +835,7 @@ body {
   $steps: 20;
   @for $i from 0 through $steps {
     #{percentage($i*(1/$steps))} {
-      clip: rect(random(150) + px, 850px, random(150) + px, 30px);
+      clip: rect(random(150) + px, 850px, random(150) + px, 0px);
     }
   }
 }
@@ -844,7 +844,7 @@ body {
   $steps: 20;
   @for $i from 0 through $steps {
     #{percentage($i*(1/$steps))} {
-      clip: rect(random(150) + 200 + px, 850px, random(150) + 200 + px, 30px);
+      clip: rect(random(150) + px, 850px, random(150) + px, 0px);
     }
   }
 }
@@ -1335,6 +1335,9 @@ $timeline-color: $primary-color;
       padding: 12px 20px;
       font-size: 1rem;
     }
+    .arrowDown {
+      margin-top: 40vh;
+    }
   }
   .about {
     padding: 5px;
@@ -1396,12 +1399,12 @@ $timeline-color: $primary-color;
       padding: 0 20px;
     }
     h3 {
-      font-size: 1rem;
+      font-size: 1.8rem;
     }
     div {
       a {
-        width: 25px;
-        height: 25px;
+        width: 50px;
+        height: 50px;
       }
     }
   }
@@ -1459,10 +1462,10 @@ $timeline-color: $primary-color;
   }
   .footer {
     h1 {
-      font-size: 3rem;
+      font-size: 2.7rem;
     }
     h3 {
-      font-size: 1rem;
+      font-size: 1.3rem;
     }
   }
 }
