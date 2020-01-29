@@ -7,6 +7,7 @@
   font-family: Ubuntu;
   src: url(../fonts/Ubuntu-Regular.ttf);
 }
+@import url("https://fonts.googleapis.com/css?family=Rubik&display=swap");
 
 $s: 0.25em;
 $speed: 3.5s;
@@ -1028,6 +1029,7 @@ body {
   padding: 20px;
   color: #fff;
   text-align: center;
+  margin-bottom: 10vh;
   div {
     width: 80%;
     display: flex;
@@ -1059,6 +1061,7 @@ body {
       font-size: 1.5rem;
       text-align: justify;
       li {
+        font-family: "Rubik", sans-serif;
         margin: 20px;
       }
     }
@@ -1080,6 +1083,13 @@ body {
           text-align: center;
         }
       }
+    }
+    .brochure {
+      text-decoration: none;
+      color: #ff5f00;
+      background-color: #fff;
+      padding: 15px 20px;
+      border-radius: 3px;
     }
   }
 }
@@ -1310,7 +1320,7 @@ $timeline-color: $primary-color;
 
         p {
           padding: 10px;
-          font-family: "VCR_OSD_MONO", sans-serif;
+          font-family: "Rubik", sans-serif;
         }
       }
     }
@@ -1377,6 +1387,7 @@ $timeline-color: $primary-color;
         font-size: 1.7rem;
       }
       p {
+        font-family: "Rubik", sans-serif;
         padding: 20px 20px 30px;
         color: #000;
       }
@@ -1418,6 +1429,7 @@ $timeline-color: $primary-color;
         padding: auto;
       }
       p {
+        font-family: "Rubik", sans-serif;
         text-align: center;
         font-size: 1.2rem;
       }
@@ -1446,6 +1458,7 @@ $timeline-color: $primary-color;
       margin: 5vh 0;
     }
     p {
+      font-family: "Rubik", sans-serif;
       margin: auto;
       width: 50%;
       font-size: 1.4rem;
@@ -1480,6 +1493,7 @@ $timeline-color: $primary-color;
     font-size: 2rem;
     a {
       color: #74ee15;
+      font-family: "Rubik", sans-serif;
       text-decoration: none;
     }
   }
@@ -1563,7 +1577,7 @@ $timeline-color: $primary-color;
         font-size: 3rem;
       }
       p {
-        font-size: 0.8rem;
+        font-size: 1.2rem;
       }
     }
   }
@@ -1628,9 +1642,6 @@ $timeline-color: $primary-color;
     .our-aim {
       h1 {
         font-size: 3rem;
-      }
-      p {
-        font-size: 0.8rem;
       }
     }
   }
