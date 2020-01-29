@@ -1529,8 +1529,9 @@ $timeline-color: $primary-color;
   }
   .about {
     padding: 5px;
-    div {
+    .aboutDiv {
       h1 {
+        font-size: 3rem;
         padding: 5px;
       }
     }
