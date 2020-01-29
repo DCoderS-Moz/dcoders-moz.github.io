@@ -1437,6 +1437,33 @@ $timeline-color: $primary-color;
   }
 }
 
+.sponsors {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+  h2 {
+    text-align: center;
+    color: #fff;
+    font-family: "VCR_OSD_MONO", sans-serif;
+    font-size: 4rem;
+    margin-bottom: 30px;
+  }
+  div {
+    margin-bottom: 50px;
+    .square {
+      margin-top: 20px;
+      width: 200px;
+      height: 200px;
+    }
+    .rec {
+      width: 400px;
+      height: 300px;
+    }
+  }
+}
+
 .dcoders {
   color: #fff;
   font-family: "VCR_OSD_MONO", sans-serif;
@@ -1570,6 +1597,23 @@ $timeline-color: $primary-color;
       }
     }
   }
+
+  .sponsors {
+    h2 {
+      font-size: 2.5rem;
+    }
+    div {
+      .square {
+        width: 100px;
+        height: 100px;
+      }
+      .rec {
+        width: 200px;
+        height: 150px;
+      }
+    }
+  }
+
   .dcoders {
     .about-us,
     .our-aim {
