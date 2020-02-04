@@ -653,6 +653,45 @@
         <div>
           <img class="rec" src="img/IIC.png" alt="IIC Logo" />
         </div>
+        <h2>Official Gifting Partner</h2>
+        <div>
+          <img
+            class="square"
+            style="border-radius: 5px; cursor: pointer;"
+            src="img/TheSouledStore.jpg"
+            alt="The Souled Store"
+            onclick="theSouledStore()"
+          />
+        </div>
+        <h2>Our Sponsors</h2>
+        <div class="list">
+          <div>
+            <img
+              class="square"
+              style="background-color: white;"
+              src="img/CodingNinja.svg"
+              alt="Coding Ninja Logo"
+              onclick="codingNinga()"
+            />
+          </div>
+          <div>
+            <img
+              class="square"
+              style="background-color: white;"
+              src="img/CoffeBreak.svg"
+              alt="Coffee Break Logo"
+              onclick="coffeeBreak()"
+            />
+          </div>
+          <div>
+            <img
+              class="square"
+              src="img/HouseOfThugs.jpg"
+              alt="House Of Thugs Logo"
+              onclick="hot()"
+            />
+          </div>
+        </div>
       </section>
       <section class="footer">
         <h1>For Any Queries</h1>
@@ -693,5 +732,17 @@
       e.preventDefault();
       e.stopPropagation();
     });
+    function theSouledStore() {
+      window.open("https://www.thesouledstore.com/", "_blank");
+    }
+    function codingNinga() {
+      window.open("https://www.codingninjas.com/", "_blank");
+    }
+    function coffeeBreak() {
+      window.open("http://coffeebreak.co.in/", "_blank");
+    }
+    function hot() {
+      window.open("https://www.instagram.com/house_of_thugs/", "_blank");
+    }
   </script>
 </html>
