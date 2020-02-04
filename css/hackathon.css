@@ -439,265 +439,265 @@ body #stars5:after {
 
 @-webkit-keyframes glitch-before {
   0% {
-    clip: rect(40px, 850px, 107px, 0px);
+    clip: rect(128px, 850px, 133px, 0px);
   }
   5% {
-    clip: rect(109px, 850px, 79px, 0px);
+    clip: rect(60px, 850px, 15px, 0px);
   }
   10% {
-    clip: rect(80px, 850px, 134px, 0px);
+    clip: rect(38px, 850px, 1px, 0px);
   }
   15% {
-    clip: rect(73px, 850px, 55px, 0px);
+    clip: rect(106px, 850px, 54px, 0px);
   }
   20% {
-    clip: rect(24px, 850px, 90px, 0px);
+    clip: rect(113px, 850px, 35px, 0px);
   }
   25% {
-    clip: rect(49px, 850px, 10px, 0px);
+    clip: rect(49px, 850px, 109px, 0px);
   }
   30% {
-    clip: rect(54px, 850px, 117px, 0px);
+    clip: rect(31px, 850px, 97px, 0px);
   }
   35% {
-    clip: rect(103px, 850px, 16px, 0px);
+    clip: rect(119px, 850px, 84px, 0px);
   }
   40% {
-    clip: rect(52px, 850px, 146px, 0px);
+    clip: rect(14px, 850px, 13px, 0px);
   }
   45% {
-    clip: rect(99px, 850px, 136px, 0px);
+    clip: rect(133px, 850px, 99px, 0px);
   }
   50% {
-    clip: rect(129px, 850px, 116px, 0px);
+    clip: rect(55px, 850px, 53px, 0px);
   }
   55% {
-    clip: rect(52px, 850px, 31px, 0px);
+    clip: rect(111px, 850px, 85px, 0px);
   }
   60% {
-    clip: rect(5px, 850px, 105px, 0px);
+    clip: rect(113px, 850px, 141px, 0px);
   }
   65% {
-    clip: rect(123px, 850px, 54px, 0px);
+    clip: rect(39px, 850px, 137px, 0px);
   }
   70% {
-    clip: rect(144px, 850px, 40px, 0px);
+    clip: rect(63px, 850px, 42px, 0px);
   }
   75% {
-    clip: rect(116px, 850px, 93px, 0px);
+    clip: rect(140px, 850px, 49px, 0px);
   }
   80% {
-    clip: rect(82px, 850px, 82px, 0px);
+    clip: rect(129px, 850px, 136px, 0px);
   }
   85% {
-    clip: rect(46px, 850px, 100px, 0px);
+    clip: rect(86px, 850px, 66px, 0px);
   }
   90% {
-    clip: rect(49px, 850px, 101px, 0px);
+    clip: rect(9px, 850px, 18px, 0px);
   }
   95% {
-    clip: rect(148px, 850px, 120px, 0px);
+    clip: rect(95px, 850px, 149px, 0px);
   }
   100% {
-    clip: rect(73px, 850px, 64px, 0px);
+    clip: rect(89px, 850px, 43px, 0px);
   }
 }
 
 @keyframes glitch-before {
   0% {
-    clip: rect(40px, 850px, 107px, 0px);
+    clip: rect(128px, 850px, 133px, 0px);
   }
   5% {
-    clip: rect(109px, 850px, 79px, 0px);
+    clip: rect(60px, 850px, 15px, 0px);
   }
   10% {
-    clip: rect(80px, 850px, 134px, 0px);
+    clip: rect(38px, 850px, 1px, 0px);
   }
   15% {
-    clip: rect(73px, 850px, 55px, 0px);
+    clip: rect(106px, 850px, 54px, 0px);
   }
   20% {
-    clip: rect(24px, 850px, 90px, 0px);
+    clip: rect(113px, 850px, 35px, 0px);
   }
   25% {
-    clip: rect(49px, 850px, 10px, 0px);
+    clip: rect(49px, 850px, 109px, 0px);
   }
   30% {
-    clip: rect(54px, 850px, 117px, 0px);
+    clip: rect(31px, 850px, 97px, 0px);
   }
   35% {
-    clip: rect(103px, 850px, 16px, 0px);
+    clip: rect(119px, 850px, 84px, 0px);
   }
   40% {
-    clip: rect(52px, 850px, 146px, 0px);
+    clip: rect(14px, 850px, 13px, 0px);
   }
   45% {
-    clip: rect(99px, 850px, 136px, 0px);
+    clip: rect(133px, 850px, 99px, 0px);
   }
   50% {
-    clip: rect(129px, 850px, 116px, 0px);
+    clip: rect(55px, 850px, 53px, 0px);
   }
   55% {
-    clip: rect(52px, 850px, 31px, 0px);
+    clip: rect(111px, 850px, 85px, 0px);
   }
   60% {
-    clip: rect(5px, 850px, 105px, 0px);
+    clip: rect(113px, 850px, 141px, 0px);
   }
   65% {
-    clip: rect(123px, 850px, 54px, 0px);
+    clip: rect(39px, 850px, 137px, 0px);
   }
   70% {
-    clip: rect(144px, 850px, 40px, 0px);
+    clip: rect(63px, 850px, 42px, 0px);
   }
   75% {
-    clip: rect(116px, 850px, 93px, 0px);
+    clip: rect(140px, 850px, 49px, 0px);
   }
   80% {
-    clip: rect(82px, 850px, 82px, 0px);
+    clip: rect(129px, 850px, 136px, 0px);
   }
   85% {
-    clip: rect(46px, 850px, 100px, 0px);
+    clip: rect(86px, 850px, 66px, 0px);
   }
   90% {
-    clip: rect(49px, 850px, 101px, 0px);
+    clip: rect(9px, 850px, 18px, 0px);
   }
   95% {
-    clip: rect(148px, 850px, 120px, 0px);
+    clip: rect(95px, 850px, 149px, 0px);
   }
   100% {
-    clip: rect(73px, 850px, 64px, 0px);
+    clip: rect(89px, 850px, 43px, 0px);
   }
 }
 
 @-webkit-keyframes glitch-after {
   0% {
-    clip: rect(29px, 850px, 126px, 0px);
+    clip: rect(117px, 850px, 78px, 0px);
   }
   5% {
-    clip: rect(10px, 850px, 18px, 0px);
+    clip: rect(2px, 850px, 125px, 0px);
   }
   10% {
-    clip: rect(68px, 850px, 72px, 0px);
+    clip: rect(33px, 850px, 137px, 0px);
   }
   15% {
-    clip: rect(9px, 850px, 109px, 0px);
+    clip: rect(107px, 850px, 85px, 0px);
   }
   20% {
-    clip: rect(120px, 850px, 40px, 0px);
+    clip: rect(116px, 850px, 57px, 0px);
   }
   25% {
-    clip: rect(98px, 850px, 8px, 0px);
+    clip: rect(71px, 850px, 26px, 0px);
   }
   30% {
-    clip: rect(7px, 850px, 129px, 0px);
+    clip: rect(62px, 850px, 135px, 0px);
   }
   35% {
-    clip: rect(49px, 850px, 134px, 0px);
+    clip: rect(70px, 850px, 108px, 0px);
   }
   40% {
-    clip: rect(81px, 850px, 109px, 0px);
+    clip: rect(30px, 850px, 56px, 0px);
   }
   45% {
-    clip: rect(71px, 850px, 23px, 0px);
+    clip: rect(48px, 850px, 88px, 0px);
   }
   50% {
-    clip: rect(89px, 850px, 138px, 0px);
+    clip: rect(14px, 850px, 75px, 0px);
   }
   55% {
-    clip: rect(27px, 850px, 146px, 0px);
+    clip: rect(137px, 850px, 83px, 0px);
   }
   60% {
-    clip: rect(99px, 850px, 49px, 0px);
+    clip: rect(125px, 850px, 147px, 0px);
   }
   65% {
-    clip: rect(54px, 850px, 116px, 0px);
+    clip: rect(98px, 850px, 138px, 0px);
   }
   70% {
-    clip: rect(106px, 850px, 34px, 0px);
+    clip: rect(11px, 850px, 28px, 0px);
   }
   75% {
-    clip: rect(143px, 850px, 130px, 0px);
+    clip: rect(106px, 850px, 29px, 0px);
   }
   80% {
-    clip: rect(135px, 850px, 47px, 0px);
+    clip: rect(137px, 850px, 117px, 0px);
   }
   85% {
-    clip: rect(120px, 850px, 26px, 0px);
+    clip: rect(61px, 850px, 37px, 0px);
   }
   90% {
-    clip: rect(68px, 850px, 93px, 0px);
+    clip: rect(75px, 850px, 107px, 0px);
   }
   95% {
-    clip: rect(123px, 850px, 75px, 0px);
+    clip: rect(26px, 850px, 132px, 0px);
   }
   100% {
-    clip: rect(13px, 850px, 107px, 0px);
+    clip: rect(117px, 850px, 32px, 0px);
   }
 }
 
 @keyframes glitch-after {
   0% {
-    clip: rect(29px, 850px, 126px, 0px);
+    clip: rect(117px, 850px, 78px, 0px);
   }
   5% {
-    clip: rect(10px, 850px, 18px, 0px);
+    clip: rect(2px, 850px, 125px, 0px);
   }
   10% {
-    clip: rect(68px, 850px, 72px, 0px);
+    clip: rect(33px, 850px, 137px, 0px);
   }
   15% {
-    clip: rect(9px, 850px, 109px, 0px);
+    clip: rect(107px, 850px, 85px, 0px);
   }
   20% {
-    clip: rect(120px, 850px, 40px, 0px);
+    clip: rect(116px, 850px, 57px, 0px);
   }
   25% {
-    clip: rect(98px, 850px, 8px, 0px);
+    clip: rect(71px, 850px, 26px, 0px);
   }
   30% {
-    clip: rect(7px, 850px, 129px, 0px);
+    clip: rect(62px, 850px, 135px, 0px);
   }
   35% {
-    clip: rect(49px, 850px, 134px, 0px);
+    clip: rect(70px, 850px, 108px, 0px);
   }
   40% {
-    clip: rect(81px, 850px, 109px, 0px);
+    clip: rect(30px, 850px, 56px, 0px);
   }
   45% {
-    clip: rect(71px, 850px, 23px, 0px);
+    clip: rect(48px, 850px, 88px, 0px);
   }
   50% {
-    clip: rect(89px, 850px, 138px, 0px);
+    clip: rect(14px, 850px, 75px, 0px);
   }
   55% {
-    clip: rect(27px, 850px, 146px, 0px);
+    clip: rect(137px, 850px, 83px, 0px);
   }
   60% {
-    clip: rect(99px, 850px, 49px, 0px);
+    clip: rect(125px, 850px, 147px, 0px);
   }
   65% {
-    clip: rect(54px, 850px, 116px, 0px);
+    clip: rect(98px, 850px, 138px, 0px);
   }
   70% {
-    clip: rect(106px, 850px, 34px, 0px);
+    clip: rect(11px, 850px, 28px, 0px);
   }
   75% {
-    clip: rect(143px, 850px, 130px, 0px);
+    clip: rect(106px, 850px, 29px, 0px);
   }
   80% {
-    clip: rect(135px, 850px, 47px, 0px);
+    clip: rect(137px, 850px, 117px, 0px);
   }
   85% {
-    clip: rect(120px, 850px, 26px, 0px);
+    clip: rect(61px, 850px, 37px, 0px);
   }
   90% {
-    clip: rect(68px, 850px, 93px, 0px);
+    clip: rect(75px, 850px, 107px, 0px);
   }
   95% {
-    clip: rect(123px, 850px, 75px, 0px);
+    clip: rect(26px, 850px, 132px, 0px);
   }
   100% {
-    clip: rect(13px, 850px, 107px, 0px);
+    clip: rect(117px, 850px, 32px, 0px);
   }
 }
 
@@ -1207,7 +1207,7 @@ body #stars5:after {
   border-radius: 2px;
   width: 200px;
   height: 200px;
-  margin: 20px 0;
+  margin: 20px 20px;
   cursor: pointer;
 }
 
