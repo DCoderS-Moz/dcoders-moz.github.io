@@ -5,16 +5,19 @@
 @font-face {
   font-family: Berton-Roman-trial;
   src: url(../fonts/Berton-Roman-trial.ttf);
+  font-display: swap;
 }
 
 @font-face {
   font-family: Ubuntu;
   src: url(../fonts/Ubuntu-Regular.ttf);
+  font-display: swap;
 }
 
 @font-face {
   font-family: Amatic SC;
   src: url(../fonts/AmaticSC-Bold.ttf);
+  font-display: swap;
 }
 
 /* BODY */
